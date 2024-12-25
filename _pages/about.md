@@ -75,7 +75,7 @@ Qiyuan Wang, Shang Zhao, **Zikang Xu**, S. Kevin Zhou✉️ &nbsp;&nbsp;[[Scienc
 
 - `MIDL 2024` [Slide-SAM: Medical SAM Meets Sliding Window <span style="color:red;">(Oral)</span>](https://openreview.net/forum?id=LNdU9RTv3L&referrer=%5Bthe%20profile%20of%20Fenghe%20Tang%5D(%2Fprofile%3Fid%3D~Fenghe_Tang1))
 
-Quan Quan, Fenghe Tang, **Zikang Xu**, Heqin Zhu, S. Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/Curli-quan/Slide-SAM.svg?label=Stars&style=social)](https://github.com/Curli-quan/Slide-SAM)[[code](https://github.com/Curli-quan/Slide-SAM)][[OpenReview](https://openreview.net/forum?id=LNdU9RTv3L&referrer=%5Bthe%20profile%20of%20Fenghe%20Tang%5D(%2Fprofile%3Fid%3D~Fenghe_Tang1)]
+Quan Quan, Fenghe Tang, **Zikang Xu**, Heqin Zhu, S. Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/Curli-quan/Slide-SAM.svg?label=Stars&style=social)](https://github.com/Curli-quan/Slide-SAM)[[code](https://github.com/Curli-quan/Slide-SAM)][[OpenReview](https://openreview.net/forum?id=LNdU9RTv3L&referrer=%5Bthe%20profile%20of%20Fenghe%20Tang%5D）]
 
 
 # 🎖 Honors and Awards
@@ -88,7 +88,7 @@ Quan Quan, Fenghe Tang, **Zikang Xu**, Heqin Zhu, S. Kevin Zhou✉️ &nbsp;&nbs
 - *2021.09 - (now)*, Ph.D. student, Suzhou Institute for Advanced Research, University of Science and Technology of China ([USTC](http://en.ustc.edu.cn/)), Suzhou, China
 - *2018.09 - 2021.06*, Master, School of Biological Science and Medical Engineering, Southeast University ([SEU](https://bme.seu.edu.cn)), Nanjing, China
 - *2016.09 - 2018.06*, Undergraduate, School of Biological Science and Medical Engineering, Southeast University ([SEU](https://bme.seu.edu.cn)), Nanjing, China
-- *2016.09 - 2018.06*, Undergraduate, Chien-Shiung Wu College (honors college), Southeast University ([SEU](https://wjx.seu.edu.cn)), Nanjing, China
+- *2014.09 - 2016.06*, Undergraduate, Chien-Shiung Wu College (honors college), Southeast University ([SEU](https://wjx.seu.edu.cn)), Nanjing, China
   
 # 💬 Professional Services
 *Journal Reviewers:* 
@@ -99,15 +99,12 @@ Quan Quan, Fenghe Tang, **Zikang Xu**, Heqin Zhu, S. Kevin Zhou✉️ &nbsp;&nbs
 - International Conference on Bioinformatics and Biomedicine (BIBM 2024)
 - IEEE International Symposium on Biomedical Imaging (ISBI 2025)
 
+*Teaching Assistant:*
+- *2022 Fall*, USTC, Medical Image Computing (BMED6208P.01_152261)
+- *2023 Fall*, USTC, Medical Image Computing (BMED6208P.01_152261)
+
 # 💬 Invited Talks
 - *2024.10*, **Benchmarking Fairness in Medical Foundation Models.** IEEE International Conference on Universal Village (IEEE UV 2024)
 
 # 💻 Internships
-- *2023.06 - 2023.10*, Fuwai Hospital, Chinese Academy of Medical Sciences, Beijing, **China**
-
-<p align="center">
-<script type='text/javascript' id='clustrmaps' src='//www.clustrmaps.com/map_v2.png?d=qtEJcSB3vw0f7NNcLe1gxeHcW6EFllElVrIzSJhRCAo&cl=ffffff'></script>
-<!--
-<a href="https://clustrmaps.com/site/1bkj0" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=400&am=a&amp;t=tt&amp;d=023YIyttHQR8s08hPoPU7sutWj4yjTkXupp7BXqCOjM" /></a>
--->
-</p>
+- *2023.06 - 2023.10*, Fuwai Hospital, Chinese Academy of Medical Sciences, Beijing, China
