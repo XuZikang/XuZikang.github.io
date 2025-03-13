@@ -9,15 +9,15 @@ redirect_from:
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% assign gsDataBaseUrl = "<https://cdn.jsdelivr.net/gh/>" | append: site.repository | append: "@" %}
 {% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% assign gsDataBaseUrl = "<https://raw.githubusercontent.com/>" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
 
-# 😊 About Me 
+# 😊 About Me
 
 - I am a fourth-year Ph.D candidate at School of Biomedical Engineering, University of Science and Technology of China ([USTC](http://bme.ustc.edu.cn/)), supervised by Prof. [S. Kevin Zhou](https://sz.ustc.edu.cn/en/en_research_show/42.html).
 - I received my bachelor degree and master degree (Supervisor: [Zhongze Gu](https://bme.seu.edu.cn/2011/1017/c463a12264/page.psp)) from Southeast University ([SEU](https://www.seu.edu.cn)) in 2018 and 2021, respectively.
@@ -32,7 +32,8 @@ redirect_from:
 - *2023.02*: &nbsp; Two papers accepted to MIDL-23.
 - *2023.05*: &nbsp; One paper accepted to MICCAI-23.
 
-# 📝 Publications 
+# 📝 Publications
+
 (Selected publications, `*` indicates equal contribution and ✉️ represents corresponding author.)
 
 ### Algorithm Fairness
@@ -68,34 +69,41 @@ Qiyuan Wang, Shang Zhao, **Zikang Xu**, S. Kevin Zhou✉️ &nbsp;&nbsp;[[Scienc
 - `MIDL 2024` [Slide-SAM: Medical SAM Meets Sliding Window <span style="color:red;">(Oral)</span>](https://openreview.net/forum?id=LNdU9RTv3L&referrer=%5Bthe%20profile%20of%20Fenghe%20Tang%5D(%2Fprofile%3Fid%3D~Fenghe_Tang1))\
 Quan Quan\*, Fenghe Tang\*, **Zikang Xu**, Heqin Zhu, S. Kevin Zhou &nbsp;&nbsp;[![](https://img.shields.io/github/stars/Curli-quan/Slide-SAM.svg?label=Stars&style=social)](https://github.com/Curli-quan/Slide-SAM)[[code](https://github.com/Curli-quan/Slide-SAM)][[arXiv](https://arxiv.org/abs/2311.10121v3)]
 
-
 # 🎖 Honors and Awards
+
 - *2021, 2023, 2024*: Academic First Class Scholarship in USTC
 - *2022*: Academic Second Class Scholarship in USTC
 - *2021*: Suzhou Industrial Park Scholarship
 
-
 # 📖 Educations
+
 - *2021.09 - (now)*, Ph.D. student, Suzhou Institute for Advanced Research, University of Science and Technology of China ([USTC](http://en.ustc.edu.cn/)), Suzhou, China
 - *2018.09 - 2021.06*, Master, School of Biological Science and Medical Engineering, Southeast University ([SEU](https://bme.seu.edu.cn)), Nanjing, China
 - *2016.09 - 2018.06*, Undergraduate, School of Biological Science and Medical Engineering, Southeast University ([SEU](https://bme.seu.edu.cn)), Nanjing, China
 - *2014.09 - 2016.06*, Undergraduate, Chien-Shiung Wu College (honors college), Southeast University ([SEU](https://wjx.seu.edu.cn)), Nanjing, China
   
 # 💬 Professional Services
-*Journal Reviewers:* 
-- IEEE Transactions on Medical Imaging (IEEE-TMI)
 
-*Conference Reviewers:* 
+*Journal Reviewers:*
+
+- IEEE Transactions on Medical Imaging
+- ACM Transactions on Computing for Healthcare
+
+*Conference Reviewers:*
+
 - International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2024)
 - International Conference on Bioinformatics and Biomedicine (BIBM 2024)
 - IEEE International Symposium on Biomedical Imaging (ISBI 2025)
 
 *Teaching Assistant:*
+
 - *2022 Fall*, USTC, Medical Image Computing (BMED6208P.01_152261)
 - *2023 Fall*, USTC, Medical Image Computing (BMED6208P.01_152261)
 
 # 💬 Invited Talks
+
 - *2024.10*, **Benchmarking Fairness in Medical Foundation Models.** IEEE International Conference on Universal Village (IEEE UV 2024)
 
 # 💻 Internships
+
 - *2023.06 - 2023.10*, Fuwai Hospital, Chinese Academy of Medical Sciences, Beijing, China
