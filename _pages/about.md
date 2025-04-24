@@ -26,7 +26,8 @@ redirect_from:
 # 🔥 News
 
 <!-- - <span style="color:red;">I am seeking for postdoctoral positions in the field of medical image analysis starting in fall 2025. If you have interest in my research, please feel free to contact me</span>. -->
-- *2025.03*： &nbsp; One paper accepted to MIDL-2025 <span style="color:red;">(Oral)</span>.
+- *2025.04*: &nbsp; One paper accepted to npj Digital Medicine. 
+- *2025.03*: &nbsp; One paper accepted to MIDL-2025 <span style="color:red;">(Oral)</span>.
 - *2024.10*: &nbsp; One paper accepted to npj Digital Medicine.
 - *2024.09*: &nbsp; One paper accepted to NeurIPS-24.
 - *2024.05*: &nbsp; One paper accepted to MICCAI-24.
@@ -77,6 +78,8 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S Kevi
 
 # 🎖 Honors and Awards
 
+- *2025*: Outstanding Graduate of Anhui Province
+- *2025*: Outstanding Graduate of the University of Science and Technology of China (USTC)
 - *2021, 2023, 2024*: Academic First Class Scholarship in USTC
 - *2022*: Academic Second Class Scholarship in USTC
 - *2021*: Suzhou Industrial Park Scholarship
@@ -97,6 +100,7 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S Kevi
 
 *Conference Reviewers:*
 
+- International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2025)
 - International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2024)
 - International Conference on Bioinformatics and Biomedicine (BIBM 2024)
 - IEEE International Symposium on Biomedical Imaging (ISBI 2025)
