@@ -26,6 +26,7 @@ redirect_from:
 # 🔥 News
 
 <!-- - <span style="color:red;">I am seeking for postdoctoral positions in the field of medical image analysis starting in fall 2025. If you have interest in my research, please feel free to contact me</span>. -->
+- *2025.05*： &nbsp; The moment I've been working toward for years - I just aced my PhD defense! 🎓🥂 All those late nights finally paid off!
 - *2025.04*: &nbsp; One paper accepted to npj Digital Medicine. 
 - *2025.03*: &nbsp; One paper accepted to MIDL-2025 <span style="color:red;">(Oral)</span>.
 - *2024.10*: &nbsp; One paper accepted to npj Digital Medicine.
