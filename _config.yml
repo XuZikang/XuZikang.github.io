@@ -5,9 +5,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Specially Appointed Associate Researcher (特任副研究员) at [Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
 # Site Settings
 title                    : "Zikang Xu \n (徐梓康)"
-description              : "Ph.D. student in University of Science and Techonology of China (USTC), focusing on algorithm fairness in medical image analysis."
+description              : "Specially Appointed Associate Researcher (特任副研究员), focusing on algorithm fairness in medical image analysis and MEG data analysis.
 repository               : "XuZikang/XuZikang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +24,8 @@ baidu_site_verification  :  # https://ziyuan.baidu.com/login/index?u=/site/index
 author:
   name             : "Zikang Xu (徐梓康)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "University of Science and Techonology of China"
-  location         : "Suzhou, China"
+  bio              : "Institute of Artificial Intelligence, Hefei Comprehensive National Science Center"
+  location         : "Hefei, Anhui, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=TxjqAY0AAAAJ&hl"
