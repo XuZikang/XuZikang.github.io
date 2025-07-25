@@ -19,7 +19,7 @@ redirect_from:
 
 # 😊 About Me
 
-- I am about to become a Specially Appointed Associate Researcher (特任副研究员) at [Institute of Artificial Intelligence, Hefei Comprehensive National Science Center](https://iai.ustc.edu.cn/nsjsys.jhtml) since July, 2025.
+- Currently, I am a Specially Appointed Associate Researcher (特任副研究员) at [Institute of Artificial Intelligence, Hefei Comprehensive National Science Center](https://iai.ustc.edu.cn/nsjsys.jhtml).
 - I got my Ph. D. degree from School of Biomedical Engineering, University of Science and Technology of China ([USTC](http://bme.ustc.edu.cn/)) in 2025, supervised by Prof. [S. Kevin Zhou](https://sz.ustc.edu.cn/en/en_research_show/42.html).
 - I received my bachelor's and master's degree (Supervisor: [Zhongze Gu](https://bme.seu.edu.cn/2011/1017/c463a12264/page.psp)) from Southeast University ([SEU](https://www.seu.edu.cn)) in 2018 and 2021, respectively.
 - My research interests mainly focus on **algorithm fairness in medical image analysis**, and **AI technologies in major neurological disorders of the brain**.
@@ -27,14 +27,16 @@ redirect_from:
 # 🔥 News
 
 <!-- - <span style="color:red;">I am seeking for postdoctoral positions in the field of medical image analysis starting in fall 2025. If you have interest in my research, please feel free to contact me</span>. -->
+- *2025.07*: &nbsp; I start my work as a specially appointed associate researcher and postdoc at IAI, Hefei Comprehensive National Science Center.
 - *2025.05*: &nbsp; The moment I've been working toward for years - I just aced my Ph. D. defense! 🎓🥂 All those late nights finally paid off!
 - *2025.04*: &nbsp; One paper accepted by npj Digital Medicine. 
 - *2025.03*: &nbsp; One paper accepted by MIDL-25 <span style="color:red;">(Oral)</span>.
-- *2025.01* &nbsp; One paper accepted by Medical Image Analysis.
+- *2025.01*: &nbsp; One paper accepted by Medical Image Analysis.
 - *2024.10*: &nbsp; One paper accepted by npj Digital Medicine.
 - *2024.09*: &nbsp; One paper accepted by NeurIPS-24.
-- *2024.05*: &nbsp; One paper accepted by MICCAI-24.
-- *2023.02*: &nbsp; Two papers accepted by MIDL-24.
+- *2024.05*: &nbsp; One paper accepted by MICCAI-24 <span style="color:red;">(Early Accepted)</span>.
+- *2023.02*: &nbsp; One paper accepted by MIDL-24 <span style="color:red;">(Oral)</span>.
+- *2023.02*: &nbsp; One paper accepted by MIDL-24.
 - *2023.05*: &nbsp; One paper accepted by MICCAI-23.
 
 # 📝 Publications
@@ -62,7 +64,7 @@ redirect_from:
 
 ### Landmark Detection
 
-- `MICCAI 2024` [SIX-Net: Spatial-Context Information miX-up for Electrode Landmark Detection <span style="color:red;">(Early Accept)</span>](https://link.springer.com/chapter/10.1007/978-3-031-72378-0_32)\
+- `MICCAI 2024` [SIX-Net: Spatial-Context Information miX-up for Electrode Landmark Detection <span style="color:red;">(Early Accepted)</span>](https://link.springer.com/chapter/10.1007/978-3-031-72378-0_32)\
 Xinyi Wang, **Zikang Xu**, Heqin Zhu, Qingsong Yao, Yiyong Sun, S. Kevin Zhou✉️ &nbsp;&nbsp;[[Springer](https://link.springer.com/chapter/10.1007/978-3-031-72378-0_32)]
 
 - `MIDL 2024` [OFELIA: Optical Flow-based Electrode LocalIzAtion](https://openreview.net/pdf?id=8245ExLB4I)\
