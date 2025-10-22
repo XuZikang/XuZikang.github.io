@@ -27,6 +27,7 @@ redirect_from:
 # 🔥 News
 
 <!-- - <span style="color:red;">I am seeking for postdoctoral positions in the field of medical image analysis starting in fall 2025. If you have interest in my research, please feel free to contact me</span>. -->
+- *2025.10*: &nbsp; One paper accepted by IEEE BIBM-25.
 - *2025.07*: &nbsp; I start my work as a specially appointed associate researcher and postdoc at IAI, Hefei Comprehensive National Science Center.
 - *2025.05*: &nbsp; The moment I've been working toward for years - I just aced my Ph. D. defense! 🎓🥂 All those late nights finally paid off!
 - *2025.04*: &nbsp; One paper accepted by npj Digital Medicine. 
@@ -106,7 +107,7 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S Kevi
 - ACM Transactions on Computing for Healthcare
 
 *Conference Reviewers:*
-
+- The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)
 - International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2025)
 - International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2024)
 - International Conference on Bioinformatics and Biomedicine (BIBM 2024)
