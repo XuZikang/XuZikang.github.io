@@ -21,12 +21,13 @@ redirect_from:
 
 - Currently, I am a Specially Appointed Associate Researcher (特任副研究员) at [Institute of Artificial Intelligence, Hefei Comprehensive National Science Center](https://iai.ustc.edu.cn/nsjsys.jhtml).
 - I got my Ph. D. degree from School of Biomedical Engineering, University of Science and Technology of China ([USTC](http://bme.ustc.edu.cn/)) in 2025, supervised by Prof. [S. Kevin Zhou](https://sz.ustc.edu.cn/en/en_research_show/42.html).
-- I received my bachelor's and master's degree (Supervisor: [Zhongze Gu](https://bme.seu.edu.cn/2011/1017/c463a12264/page.psp)) from Southeast University ([SEU](https://www.seu.edu.cn)) in 2018 and 2021, respectively.
+- I received my bachelor's and master's degree (Supervisor: Prof. [Zhongze Gu](https://bme.seu.edu.cn/2011/1017/c463a12264/page.psp)) from Southeast University ([SEU](https://www.seu.edu.cn)) in 2018 and 2021, respectively.
 - My research interests mainly focus on **algorithm fairness in medical image analysis**, and **AI technologies in major neurological disorders of the brain**.
 
 # 🔥 News
 
-<!-- - <span style="color:red;">I am seeking for postdoctoral positions in the field of medical image analysis starting in fall 2025. If you have interest in my research, please feel free to contact me</span>. -->
+- <span style="color:red;">I’ll be at BIBM-25 in Wuhan, China this December (14th-19th, 2025). If you’re going to be there too, let’s catch up for a coffee ☕️☕️☕️!</span>.
+- *2025.11*: &nbsp; I am selected to join the first Young Editorial Board of [EngMedicine](https://www.sciencedirect.com/journal/engmedicine). 
 - *2025.10*: &nbsp; One paper accepted by IEEE BIBM-25.
 - *2025.07*: &nbsp; I start my work as a specially appointed associate researcher and postdoc at IAI, Hefei Comprehensive National Science Center.
 - *2025.05*: &nbsp; The moment I've been working toward for years - I just aced my Ph. D. defense! 🎓🥂 All those late nights finally paid off!
