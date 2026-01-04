@@ -20,15 +20,18 @@ redirect_from:
 # 😊 About Me
 
 - Currently, I am a Specially Appointed Associate Researcher (特任副研究员) at [Institute of Artificial Intelligence, Hefei Comprehensive National Science Center](https://iai.ustc.edu.cn/nsjsys.jhtml).
+- I am also a postdoctoral researcher jointly trained by the School of Artificial Intelligence and Data Science, USTC (supervisor: Prof. [Wenjie Feng](https://wenchieh.github.io)), and IAI, HFCNS (supervisor: Prof. [Jiahong Gao](https://faculty.pku.edu.cn/gaojiahong/zh_CN/index/13498/list/index.htm)).
 - I got my Ph. D. degree from School of Biomedical Engineering, University of Science and Technology of China ([USTC](http://bme.ustc.edu.cn/)) in 2025, supervised by Prof. [S. Kevin Zhou](https://sz.ustc.edu.cn/en/en_research_show/42.html).
 - I received my bachelor's and master's degree (Supervisor: Prof. [Zhongze Gu](https://bme.seu.edu.cn/2011/1017/c463a12264/page.psp)) from Southeast University ([SEU](https://www.seu.edu.cn)) in 2018 and 2021, respectively.
 - My research interests mainly focus on **algorithm fairness in medical image analysis**, and **AI technologies in major neurological disorders of the brain**.
 
 # 🔥 News
 
-- <span style="color:red;">I’ll be at BIBM-25 in Wuhan, China this December (14th-19th, 2025). If you’re going to be there too, let’s catch up for a coffee ☕️☕️☕️!</span>.
+<!-- - <span style="color:red;">I’ll be at BIBM-25 in Wuhan, China this December (14th-19th, 2025). If you’re going to be there too, let’s catch up for a coffee ☕️☕️☕️!</span>. -->
+
 - *2025.11*: &nbsp; I am selected to join the first Young Editorial Board of [EngMedicine](https://www.sciencedirect.com/journal/engmedicine). 
-- *2025.10*: &nbsp; One paper accepted by IEEE BIBM-25.
+- *2025.11*: &nbsp; One paper accepted by AAAI-26 <span style="color:red;">(Oral)</span>.
+- *2025.10*: &nbsp; One paper accepted by IEEE BIBM-25 <span style="color:red;">(Oral)</span>.
 - *2025.07*: &nbsp; I start my work as a specially appointed associate researcher and postdoc at IAI, Hefei Comprehensive National Science Center.
 - *2025.05*: &nbsp; The moment I've been working toward for years - I just aced my Ph. D. defense! 🎓🥂 All those late nights finally paid off!
 - *2025.04*: &nbsp; One paper accepted by npj Digital Medicine. 
@@ -58,11 +61,6 @@ redirect_from:
 
 - `MICCAI 2023` [FairAdaBN: Mitigating unfairness with adaptive batch normalization and its application to dermatological disease classification](https://arxiv.org/pdf/2303.08325)\
 **Zikang Xu**, Shang Zhao, Quan Quan, Qingsong Yao, S. Kevin Zhou✉️&nbsp;&nbsp;[![](https://img.shields.io/github/stars/XuZikang/Awesome-MedIA-Fairness.svg?label=Stars&style=social)](https://github.com/XuZikang/FairAdaBN)[[code](https://github.com/XuZikang/FairAdaBN)][[Springer](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_29)]
-
-
-
-<!-- - `arXiv 2023` [Inspecting Model Fairness in Ultrasound Segmentation Tasks](https://arxiv.org/abs/2312.02501)\
-**Zikang Xu**, Fenghe Tang, Quan Quan, Jianrui Ding, Chunping Ning, S. Kevin Zhou✉️ &nbsp;&nbsp;[[arXiv](https://arxiv.org/abs/2312.02501)] -->
 
 ### Landmark Detection
 
@@ -106,6 +104,8 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S Kevi
 
 - IEEE Transactions on Medical Imaging
 - ACM Transactions on Computing for Healthcare
+- Biomedical Signal Processing and Control
+- Franklin Open
 
 *Conference Reviewers:*
 - The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)
@@ -113,6 +113,7 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S Kevi
 - International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2024)
 - International Conference on Bioinformatics and Biomedicine (BIBM 2024)
 - IEEE International Symposium on Biomedical Imaging (ISBI 2025)
+- IEEE International Symposium on Biomedical Imaging (ISBI 2026)
 
 *Teaching Assistant:*
 
