@@ -62,6 +62,11 @@ redirect_from:
 - `MICCAI 2023` [FairAdaBN: Mitigating unfairness with adaptive batch normalization and its application to dermatological disease classification](https://arxiv.org/pdf/2303.08325)\
 **Zikang Xu**, Shang Zhao, Quan Quan, Qingsong Yao, S. Kevin Zhou✉️&nbsp;&nbsp;[![](https://img.shields.io/github/stars/XuZikang/Awesome-MedIA-Fairness.svg?label=Stars&style=social)](https://github.com/XuZikang/FairAdaBN)[[code](https://github.com/XuZikang/FairAdaBN)][[Springer](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_29)]
 
+### MEG Signal Analysis
+
+- `BIBM 2025` [FAIR-ESI: Feature Adaptive Importance Refinement for Electrophysiological Source Imaging](https://ieeexplore.ieee.org/document/11356466?TSPD_101_R0=0807dc117eab20006822586e70f38627dfbba3aa5dbbb54876dd942d0c19bf92fa7d46c12d722fb308706c9c4d1430004a40616e20c72ec836ba8b5a49ac127de18a3d86b0b999e64d13889c501fee3faa0d64ba6e7d18819c7079978e4f1bb2)\
+Linyong Zou*, Liang Zhang*, Xiongfei Wang*, Jia-Hong Gao, Yi Sun, Shurong Sheng, Kuntao Xiao, Wanli Yang, Pengfei Teng, Guoming Luan✉️, Zhao Lv✉️, **Zikang Xu**✉️ [[ArXiv]](https://arxiv.org/abs/2507.14928)
+
 ### Landmark Detection
 
 - `MICCAI 2024` [SIX-Net: Spatial-Context Information miX-up for Electrode Landmark Detection <span style="color:red;">(Early Accepted)</span>](https://link.springer.com/chapter/10.1007/978-3-031-72378-0_32)\
@@ -106,14 +111,16 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S Kevi
 - ACM Transactions on Computing for Healthcare
 - Biomedical Signal Processing and Control
 - Franklin Open
+- ACM Computing Surveys
 
 *Conference Reviewers:*
 - The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)
+- International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2026)
 - International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2025)
 - International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2024)
 - International Conference on Bioinformatics and Biomedicine (BIBM 2024)
-- IEEE International Symposium on Biomedical Imaging (ISBI 2025)
 - IEEE International Symposium on Biomedical Imaging (ISBI 2026)
+- IEEE International Symposium on Biomedical Imaging (ISBI 2025)
 
 *Teaching Assistant:*
 
