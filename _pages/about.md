@@ -29,6 +29,8 @@ redirect_from:
 
 <!-- - <span style="color:red;">I’ll be at BIBM-25 in Wuhan, China this December (14th-19th, 2025). If you’re going to be there too, let’s catch up for a coffee ☕️☕️☕️!</span>. -->
 
+
+- *2026.05*: &nbsp; One paper accepted by MICCAI-26 <span style="color:red;">(Early Accepted)</span>.
 - *2025.11*: &nbsp; I am selected to join the first Young Editorial Board of [EngMedicine](https://www.sciencedirect.com/journal/engmedicine). 
 - *2025.11*: &nbsp; One paper accepted by AAAI-26 <span style="color:red;">(Oral)</span>.
 - *2025.10*: &nbsp; One paper accepted by IEEE BIBM-25 <span style="color:red;">(Oral)</span>.
@@ -40,8 +42,8 @@ redirect_from:
 - *2024.10*: &nbsp; One paper accepted by npj Digital Medicine.
 - *2024.09*: &nbsp; One paper accepted by NeurIPS-24.
 - *2024.05*: &nbsp; One paper accepted by MICCAI-24 <span style="color:red;">(Early Accepted)</span>.
-- *2023.02*: &nbsp; One paper accepted by MIDL-24 <span style="color:red;">(Oral)</span>.
-- *2023.02*: &nbsp; One paper accepted by MIDL-24.
+- *2024.02*: &nbsp; One paper accepted by MIDL-24 <span style="color:red;">(Oral)</span>.
+- *2024.02*: &nbsp; One paper accepted by MIDL-24.
 - *2023.05*: &nbsp; One paper accepted by MICCAI-23.
 
 # 📝 Publications
@@ -54,13 +56,13 @@ redirect_from:
 **Zikang Xu**, Fenghe Tang, Quan Quan, Qingsong Yao, Qingpeng Kong, Jianrui Ding, Chunping Ning, S. Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/XuZikang/APPLE.svg?label=Stars&style=social)](https://github.com/XuZikang/APPLE)[[code](https://github.com/XuZikang/APPLE)][[Nature](https://www.nature.com/articles/s41746-025-01641-y)]
 
 - `npj Digit. Med. 2024` [Addressing Fairness Issues in Deep Learning-Based Medical Image Analysis: A Systematic Review](https://www.nature.com/articles/s41746-024-01276-5)\
-**Zikang Xu**, Jun Li, Qingsong Yao, Han Li, Mingyue Zhao, and S. Kevin Zhou✉️&nbsp;&nbsp;[![](https://img.shields.io/github/stars/XuZikang/FairAdaBN.svg?label=Stars&style=social)](https://github.com/XuZikang/Awesome-MedIA-Fairness)[[code](https://github.com/XuZikang/Awesome-MedIA-Fairness)][[Nature](https://www.nature.com/articles/s41746-024-01276-5)]
+**Zikang Xu**, Jun Li, Qingsong Yao, Han Li, Mingyue Zhao, S. Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/XuZikang/FairAdaBN.svg?label=Stars&style=social)](https://github.com/XuZikang/Awesome-MedIA-Fairness)[[code](https://github.com/XuZikang/Awesome-MedIA-Fairness)][[Nature](https://www.nature.com/articles/s41746-024-01276-5)]
 
 - `NeurIPS 2024` [FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models](https://openreview.net/forum?id=CyrKKKN3fs&referrer=%5Bthe%20profile%20of%20Yuan%20Zhong%5D(%2Fprofile%3Fid%3D~Yuan_Zhong5))\
-**Ruinan Jin\***, **Zikang Xu\***, **Yuan Zhong\***, Qingsong Yao, Qi Dou✉️, S. Kevin Zhou✉️, Xiaoxiao Li✉️&nbsp;&nbsp;[![](https://img.shields.io/github/stars/FairMedFM/FairMedFM.svg?label=Stars&style=social)](https://github.com/FairMedFM/FairMedFM)[[code](https://github.com/FairMedFM/FairMedFM)][[OpenReview](https://openreview.net/forum?id=CyrKKKN3fs&referrer=%5Bthe%20profile%20of%20Yuan%20Zhong%5D(%2Fprofile%3Fid%3D~Yuan_Zhong5))]
+**Ruinan Jin\***, **Zikang Xu\***, **Yuan Zhong\***, Qingsong Yao, Qi Dou✉️, S. Kevin Zhou✉️, Xiaoxiao Li✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/FairMedFM/FairMedFM.svg?label=Stars&style=social)](https://github.com/FairMedFM/FairMedFM)[[code](https://github.com/FairMedFM/FairMedFM)][[OpenReview](https://openreview.net/forum?id=CyrKKKN3fs&referrer=%5Bthe%20profile%20of%20Yuan%20Zhong%5D(%2Fprofile%3Fid%3D~Yuan_Zhong5))]
 
 - `MICCAI 2023` [FairAdaBN: Mitigating unfairness with adaptive batch normalization and its application to dermatological disease classification](https://arxiv.org/pdf/2303.08325)\
-**Zikang Xu**, Shang Zhao, Quan Quan, Qingsong Yao, S. Kevin Zhou✉️&nbsp;&nbsp;[![](https://img.shields.io/github/stars/XuZikang/Awesome-MedIA-Fairness.svg?label=Stars&style=social)](https://github.com/XuZikang/FairAdaBN)[[code](https://github.com/XuZikang/FairAdaBN)][[Springer](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_29)]
+**Zikang Xu**, Shang Zhao, Quan Quan, Qingsong Yao, S. Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/XuZikang/Awesome-MedIA-Fairness.svg?label=Stars&style=social)](https://github.com/XuZikang/FairAdaBN)[[code](https://github.com/XuZikang/FairAdaBN)][[Springer](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_29)]
 
 ### MEG Signal Analysis
 
@@ -85,8 +87,11 @@ Quan Quan\*, Fenghe Tang\*, **Zikang Xu**, Heqin Zhu, S. Kevin Zhou✉️ &nbsp;
 
 ### MISC
 
+- `AAAI 2026` [Medatlas: Evaluating LLMs for Multi-Round, Multi-Task Medical Reasoning Across Diverse Imaging Modalities and Clinical Text](https://ojs.aaai.org/index.php/AAAI/article/view/41142)\
+Ronghao Xu, Zhen Huang, Yangbo Wei, Xiaoqian Zhou, **Zikang Xu**, Ting Liu, Zihang Jiang, S. Kevin Zhou✉️ &nbsp;&nbsp;[[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/41142)]
+
 - `MIDL 2025` [Style-Aligned Image Composition for Robust Detection of Abnormal Cells in Cytopathology <span style="color:red;">(Oral)</span>](https://openreview.net/pdf?id=VQrbxORlvv)\
-Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/Joey-Qi/SAIC.svg?label=Stars&style=social)](https://github.com/Joey-Qi/SAIC)[[code](https://github.com/Joey-Qi/SAIC)][[OpenReview](https://openreview.net/pdf?id=VQrbxORlvv)]
+Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S. Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/Joey-Qi/SAIC.svg?label=Stars&style=social)](https://github.com/Joey-Qi/SAIC)[[code](https://github.com/Joey-Qi/SAIC)][[OpenReview](https://openreview.net/pdf?id=VQrbxORlvv)]
 
 # 🎖 Honors and Awards
 
