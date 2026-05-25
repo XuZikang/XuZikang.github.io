@@ -19,15 +19,22 @@ redirect_from:
 
 # 😊 About Me
 
+<div data-aos="fade-up">
+
 - Currently, I am a Specially Appointed Associate Researcher (特任副研究员) at [Institute of Artificial Intelligence, Hefei Comprehensive National Science Center](https://iai.ustc.edu.cn/nsjsys.jhtml).
 - I am also a postdoctoral researcher jointly trained by the School of Artificial Intelligence and Data Science, USTC (supervisor: Prof. [Wenjie Feng](https://wenchieh.github.io)), and IAI, HFCNS (supervisor: Prof. [Jiahong Gao](https://faculty.pku.edu.cn/gaojiahong/zh_CN/index/13498/list/index.htm)).
 - I got my Ph. D. degree from School of Biomedical Engineering, University of Science and Technology of China ([USTC](http://bme.ustc.edu.cn/)) in 2025, supervised by Prof. [S. Kevin Zhou](https://sz.ustc.edu.cn/en/en_research_show/42.html).
 - I received my bachelor's and master's degree (Supervisor: Prof. [Zhongze Gu](https://bme.seu.edu.cn/2011/1017/c463a12264/page.psp)) from Southeast University ([SEU](https://www.seu.edu.cn)) in 2018 and 2021, respectively.
 - My research interests mainly focus on **algorithm fairness in medical image analysis**, and **AI technologies in major neurological disorders of the brain**.
+</div>
 
 # 🔥 News
 
-<!-- - <span style="color:red;">I’ll be at BIBM-25 in Wuhan, China this December (14th-19th, 2025). If you’re going to be there too, let’s catch up for a coffee ☕️☕️☕️!</span>. -->
+<div data-aos="fade-up">
+
+<div class="timeline-section">
+
+<!-- - <span style="color:red;">I'll be at BIBM-25 in Wuhan, China this December (14th-19th, 2025). If you're going to be there too, let's catch up for a coffee ☕️☕️☕️!</span>. -->
 
 
 - *2026.05*: &nbsp; One paper accepted by MICCAI-26 <span style="color:red;">(Early Accepted)</span>.
@@ -46,7 +53,12 @@ redirect_from:
 - *2024.02*: &nbsp; One paper accepted by MIDL-24.
 - *2023.05*: &nbsp; One paper accepted by MICCAI-23.
 
+</div>
+</div>
+
 # 📝 Publications
+
+<div data-aos="fade-up">
 
 (Selected publications, `*` indicates equal contribution and ✉️ represents corresponding author.)
 
@@ -93,7 +105,11 @@ Ronghao Xu, Zhen Huang, Yangbo Wei, Xiaoqian Zhou, **Zikang Xu**, Ting Liu, Ziha
 - `MIDL 2025` [Style-Aligned Image Composition for Robust Detection of Abnormal Cells in Cytopathology <span style="color:red;">(Oral)</span>](https://openreview.net/pdf?id=VQrbxORlvv)\
 Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S. Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/Joey-Qi/SAIC.svg?label=Stars&style=social)](https://github.com/Joey-Qi/SAIC)[[code](https://github.com/Joey-Qi/SAIC)][[OpenReview](https://openreview.net/pdf?id=VQrbxORlvv)]
 
+</div>
+
 # 🎖 Honors and Awards
+
+<div data-aos="fade-up">
 
 - *2025*: Outstanding Graduate of Anhui Province
 - *2025*: Outstanding Graduate of the University of Science and Technology of China (USTC)
@@ -101,14 +117,25 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S. Kev
 - *2022*: Academic Second Class Scholarship in USTC
 - *2021*: Suzhou Industrial Park Scholarship
 
+</div>
+
 # 📖 Educations
+
+<div data-aos="fade-up">
+
+<div class="timeline-section">
 
 - *2021.09 - 2025.06*, Ph. D., School of Biomedical Engineering, University of Science and Technology of China ([USTC](http://bme.ustc.edu.cn/)), Suzhou, China
 - *2018.09 - 2021.06*, Master, School of Biological Science and Medical Engineering, Southeast University ([SEU](https://bme.seu.edu.cn)), Nanjing, China
 - *2016.09 - 2018.06*, Undergraduate, School of Biological Science and Medical Engineering, Southeast University ([SEU](https://bme.seu.edu.cn)), Nanjing, China
 - *2014.09 - 2016.06*, Undergraduate, Chien-Shiung Wu College (honors college), Southeast University ([SEU](https://wjx.seu.edu.cn)), Nanjing, China
   
+</div>
+</div>
+
 # 💬 Professional Services
+
+<div data-aos="fade-up">
 
 *Journal Reviewers:*
 
@@ -132,10 +159,23 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S. Kev
 - *2022 Fall*, USTC, Medical Image Computing (BMED6208P.01_152261)
 - *2023 Fall*, USTC, Medical Image Computing (BMED6208P.01_152261)
 
+</div>
+
 # 💬 Invited Talks
+
+<div data-aos="fade-up">
 
 - *2024.10*, **Benchmarking Fairness in Medical Foundation Models.** IEEE International Conference on Universal Village (IEEE UV 2024)
 
+</div>
+
 # 💻 Internships
 
-- *2023.06 - 2023.10*, Fuwai Hospital, Chinese Academy of Medical Sciences, Beijing, China
+<div data-aos="fade-up">
+
+<!--
+
+
+-->
+
+</div>

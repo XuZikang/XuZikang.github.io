@@ -40,15 +40,322 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* ============================================
+   CSS Custom Properties (Theme-Aware)
+   ============================================ */
+
+:root,
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #fafafa;
+  --bg-card: #ffffff;
+  --bg-nav: rgba(255, 255, 255, 0.75);
+  --bg-code: #f6f8fa;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+  --border-color: #eaeaea;
+  --border-light: #efefef;
+  --accent-gradient-1: #667eea;
+  --accent-gradient-2: #764ba2;
+  --accent-blue: #2d7bd9;
+  --accent-blue-soft: #e8f0fe;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.10);
+  --shadow-paper: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-paper-hover: 0 6px 20px rgba(0, 0, 0, 0.10);
+  --avatar-glow: rgba(102, 126, 234, 0.25);
+  --badge-bg: #00369f;
+  --badge-text: #ffffff;
+  --badge-orange: #e65100;
+  --badge-green: #2e7d32;
+  --particle-color: rgba(102, 126, 234, 0.15);
+  --timeline-line: #d0d7de;
+  --timeline-dot: #667eea;
+  --timeline-dot-bg: #ffffff;
+  --link-color: #2d7bd9;
+  --link-hover: #1a5ba8;
+  --blockquote-border: #667eea;
+  --hr-color: #eaeaea;
+  --scrollbar-track: #f1f1f1;
+  --scrollbar-thumb: #c1c1c1;
+
+  /* Sidenav (author sidebar) */
+  --sidebar-bg: #fafafa;
+  --sidebar-text: #333333;
+  --sidebar-link: #2d7bd9;
+}
+
+/* ----- DARK THEME ----- */
+[data-theme="dark"] {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-card: #1c2333;
+  --bg-nav: rgba(13, 17, 23, 0.82);
+  --bg-code: #1c2333;
+  --text-primary: #e6edf3;
+  --text-secondary: #b0b8c4;
+  --text-muted: #6e7681;
+  --border-color: #30363d;
+  --border-light: #21262d;
+  --accent-gradient-1: #58a6ff;
+  --accent-gradient-2: #bc8cff;
+  --accent-blue: #58a6ff;
+  --accent-blue-soft: #0d1d3a;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+  --shadow-paper: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-paper-hover: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --avatar-glow: rgba(88, 166, 255, 0.3);
+  --badge-bg: #1f6feb;
+  --badge-text: #ffffff;
+  --badge-orange: #d15700;
+  --badge-green: #3fb950;
+  --particle-color: rgba(88, 166, 255, 0.12);
+  --timeline-line: #30363d;
+  --timeline-dot: #58a6ff;
+  --timeline-dot-bg: #0d1117;
+  --link-color: #58a6ff;
+  --link-hover: #79c0ff;
+  --blockquote-border: #58a6ff;
+  --hr-color: #30363d;
+  --scrollbar-track: #161b22;
+  --scrollbar-thumb: #30363d;
+
+  --sidebar-bg: #161b22;
+  --sidebar-text: #e6edf3;
+  --sidebar-link: #58a6ff;
+}
+
+/* ----- Smooth Theme Transitions ----- */
+html,
+html *,
+html *::before,
+html *::after {
+  transition: background-color 0.3s ease,
+              color 0.2s ease,
+              border-color 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+/* ============================================
+   SMOOTH SCROLLBEHAVIOR
+   ============================================ */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================================
+   SCROLLBAR STYLING
+   ============================================ */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* ============================================
+   BODY & BASE
+   ============================================ */
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--link-color);
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
+hr {
+  border-color: var(--hr-color);
+}
+
+blockquote {
+  border-left-color: var(--blockquote-border);
+}
+
+/* ============================================
+   GLASS NAVIGATION (Step 2)
+   ============================================ */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--bg-nav);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: background-color 0.4s ease, backdrop-filter 0.4s ease;
+}
+
+.masthead__inner-wrap {
+  max-width: 100%;
+}
+
+.greedy-nav {
+  background: transparent !important;
+}
+
+.greedy-nav a {
+  color: var(--text-primary) !important;
+  position: relative;
+}
+
+.greedy-nav .visible-links a {
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(135deg, var(--accent-gradient-1), var(--accent-gradient-2));
+    transition: width 0.3s ease;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+/* ============================================
+   THEME TOGGLE BUTTON
+   ============================================ */
+.theme-toggle-item {
+  list-style: none;
+  margin-left: 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    transform: scale(1.1);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent-blue);
+    outline-offset: 2px;
+  }
+}
+
+.theme-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Show/hide icons based on theme */
+.theme-toggle-btn.light .sun-icon { display: block; }
+.theme-toggle-btn.light .moon-icon { display: none; }
+.theme-toggle-btn.dark .sun-icon { display: none; }
+.theme-toggle-btn.dark .moon-icon { display: block; }
+
+.theme-toggle-btn .sun-icon { stroke: #e6a817; }
+.theme-toggle-btn .moon-icon { stroke: #58a6ff; }
+
+/* ============================================
+   PARTICLE BACKGROUND CONTAINER (Step 7)
+   ============================================ */
+#bg-particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* ============================================
+   SECTION TITLE GRADIENTS (Step 4)
+   ============================================ */
+.page__content h1 {
+  font-size: 1.8em;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  background: linear-gradient(135deg, var(--accent-gradient-1) 0%, var(--accent-gradient-2) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+  padding-bottom: 0.15em;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(135deg, var(--accent-gradient-1) 0%, var(--accent-gradient-2) 100%);
+    border-radius: 2px;
+    margin-top: 0.2em;
+    -webkit-text-fill-color: initial;
+  }
+}
+
+/* ============================================
+   AVATAR GLOW (Step 4)
+   ============================================ */
+.author__avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 20px var(--avatar-glow);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.author__avatar img:hover {
+  transform: scale(1.05) rotate(-2deg);
+  box-shadow: 0 0 30px var(--avatar-glow), 0 0 60px var(--avatar-glow);
+}
+
+/* ============================================
+   PAPER BOX CARDS (Step 5)
+   ============================================ */
 .paper-box {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5em;
+    margin: 1em 0;
+    background: var(--bg-card);
+    box-shadow: var(--shadow-paper);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-paper-hover);
+      border-color: var(--accent-gradient-1);
+    }
 
     .paper-box-image{
         justify-content: center;
@@ -57,16 +364,17 @@
         order: 2;
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            box-shadow: 3px 3px 6px rgba(0,0,0,0.12);
             object-fit: cover;
+            border-radius: 8px;
         }
     }
-    
+
     .paper-box-text{
         max-width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
@@ -74,26 +382,26 @@
             max-width: 40%;
             order: 1;
         }
-        
+
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
             max-width: 60%;
             order: 2;
         }
-
     }
-
-
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+/* ============================================
+   BADGE ANIMATION (Step 5)
+   ============================================ */
+$scroll_offset: 2em;
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
 }
 
@@ -103,7 +411,273 @@ h1:before, .anchor:before {
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
+    color: var(--badge-text);
+    background: linear-gradient(135deg, var(--badge-bg), var(--accent-gradient-2));
     font-size: .8em;
+    border-radius: 0 4px 4px 0;
+    box-shadow: var(--shadow-sm);
+    animation: badgePulse 3s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(0, 54, 159, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(0, 54, 159, 0);
+  }
+}
+
+/* Special badges for "Oral" / "Early Accepted" inline spans */
+.page__content span[style*="color:red"],
+.page__content span[style*="color: red"] {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--badge-orange), #ff6d00);
+  color: #ffffff !important;
+  padding: 0.1em 0.6em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .page__content span[style*="color:red"],
+[data-theme="dark"] .page__content span[style*="color: red"] {
+  background: linear-gradient(135deg, var(--badge-orange), #ff6d00);
+  color: #ffffff !important;
+}
+
+/* ============================================
+   TIMELINE STYLES (Step 6)
+   ============================================ */
+.timeline {
+  position: relative;
+  padding-left: 2em;
+  margin: 1em 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--timeline-line);
+    border-radius: 1px;
+  }
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.5em;
+  padding-left: 1em;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: -1.65em;
+    top: 0.5em;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--timeline-dot);
+    border: 2px solid var(--timeline-dot-bg);
+    box-shadow: 0 0 0 2px var(--timeline-dot), 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1;
+  }
+}
+
+.timeline-date {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-bottom: 0.2em;
+  display: block;
+}
+
+.timeline-content {
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* ============================================
+   BLOG STYLES (override for single-page site)
+   ============================================ */
+.page {
+  float: none;
+}
+
+.page__content {
+  font-size: 0.95em;
+}
+
+/* ============================================
+   SIDEBAR THEME SUPPORT
+   ============================================ */
+.sidebar {
+  background: var(--sidebar-bg);
+  color: var(--sidebar-text);
+}
+
+.sidebar a {
+  color: var(--sidebar-link);
+}
+
+.sidebar p,
+.sidebar li {
+  color: var(--sidebar-text);
+}
+
+.author__urls-wrapper button {
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+/* ============================================
+   DARK THEME: Syntax highlighting override
+   ============================================ */
+[data-theme="dark"] .highlight {
+  background: var(--bg-code);
+}
+
+[data-theme="dark"] code,
+[data-theme="dark"] pre {
+  background: var(--bg-code);
+  color: var(--text-primary);
+}
+
+/* ============================================
+   DARK THEME: Page-specific overrides
+   ============================================ */
+[data-theme="dark"] .page__content {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .page__content strong,
+[data-theme="dark"] .page__content b {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .page__meta,
+[data-theme="dark"] .page__date {
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .archive__item-title {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .archive__item-excerpt {
+  color: var(--text-secondary);
+}
+
+/* ============================================
+   DARK THEME: Button overrides
+   ============================================ */
+[data-theme="dark"] .btn {
+  border-color: var(--border-color);
+}
+
+/* ============================================
+   DARK THEME: Notice/alert overrides
+   ============================================ */
+[data-theme="dark"] .notice {
+  background: var(--bg-card);
+  border-color: var(--border-color);
+}
+
+/* ============================================
+   ACCESSIBILITY: prefers-reduced-motion
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  html,
+  html *,
+  html *::before,
+  html *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .paper-box:hover {
+    transform: none;
+  }
+
+  .badge {
+    animation: none;
+  }
+
+  .author__avatar img:hover {
+    transform: none;
+  }
+
+  .greedy-nav .visible-links a::after {
+    transition: none;
+  }
+}
+
+/* ============================================
+   RESPONSIVE (Step 8)
+   ============================================ */
+@media screen and (max-width: 768px) {
+  .page__content h1 {
+    font-size: 1.4em;
+  }
+
+  .paper-box {
+    padding: 1em;
+    border-radius: 8px;
+  }
+
+  .timeline {
+    padding-left: 1.5em;
+  }
+
+  .timeline-item {
+    padding-left: 0.5em;
+  }
+
+  .masthead {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .theme-toggle-item {
+    margin-left: 0.3em;
+  }
+
+  .theme-toggle-btn {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+/* ============================================
+   PRINT OVERRIDE
+   ============================================ */
+@media print {
+  .masthead {
+    position: static;
+    backdrop-filter: none;
+  }
+
+  #bg-particles {
+    display: none;
+  }
+
+  .paper-box {
+    break-inside: avoid;
+    border: 1px solid #ccc;
+    box-shadow: none;
+  }
+
+  .paper-box:hover {
+    transform: none;
+    box-shadow: none;
+  }
 }

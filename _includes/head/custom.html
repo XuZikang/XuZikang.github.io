@@ -4,10 +4,15 @@
 <link rel="manifest" href="images/site.webmanifest">
 
 <meta name="msapplication-TileColor" content="#000000">
+
+<!-- Anti-FOUC: set theme before page renders -->
+<script>document.documentElement.setAttribute('data-theme', (function(){try{var t=localStorage.getItem('theme-preference');if(t==='dark'||t==='light')return t}catch(e){}return window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'})())</script>
+<noscript><style>html{transition:none!important}html:not([data-theme]){background:#fff}</style></noscript>
 <meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="assets/css/academicons.css" />
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
