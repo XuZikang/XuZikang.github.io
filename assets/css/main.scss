@@ -586,13 +586,60 @@ h1:before, .anchor:before {
 }
 
 /* ============================================
-   HERO SECTION (Step NEW)
+   HERO SECTION
    ============================================ */
 .hero-section {
-  text-align: center;
-  padding: 3em 1em 2em;
   position: relative;
+  padding: 2em 0 1em;
+  text-align: center;
   overflow: hidden;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .hero-name {
+    font-size: 3.2em;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 0.2em;
+    background: linear-gradient(135deg, var(--accent-gradient-1), var(--accent-gradient-2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2em;
+    color: var(--text-secondary);
+    margin-bottom: 0.8em;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-typing {
+    min-height: 1.8em;
+    font-size: 1.1em;
+    color: var(--text-secondary);
+    position: relative;
+    z-index: 1;
+
+    &::after {
+      content: '|';
+      animation: blink 1s step-end infinite;
+      color: var(--accent-gradient-1);
+      font-weight: 700;
+    }
+  }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
 
 .hero-floating-shapes {
@@ -608,7 +655,7 @@ h1:before, .anchor:before {
 .hero-shape {
   position: absolute;
   border-radius: 50%;
-  opacity: 0.1;
+  opacity: 0.08;
   animation: shapeFloat 20s ease-in-out infinite;
 }
 
@@ -663,6 +710,23 @@ h1:before, .anchor:before {
 .hero-section > * {
   position: relative;
   z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    padding: 2em 0.5em 1em;
+    min-height: 30vh;
+  }
+  .hero-name {
+    font-size: 2.2em;
+  }
+  .hero-subtitle {
+    font-size: 1em;
+  }
+  .hero-typing {
+    font-size: 0.95em;
+    min-height: 2.5em;
+  }
 }
 
 /* ============================================
@@ -815,27 +879,32 @@ h1:before, .anchor:before {
    TIMELINE ANIMATIONS
    ============================================ */
 .timeline-section li {
-  opacity: 0;
-  transform: translateX(-20px);
+  opacity: 1;
+  transform: translateX(0);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
-.timeline-section li.visible {
+.timeline-section li.animate-in {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.timeline-section li.animate-in.visible {
   opacity: 1;
   transform: translateX(0);
 }
 
 /* Stagger */
-.timeline-section li:nth-child(1) { transition-delay: 0s; }
-.timeline-section li:nth-child(2) { transition-delay: 0.08s; }
-.timeline-section li:nth-child(3) { transition-delay: 0.16s; }
-.timeline-section li:nth-child(4) { transition-delay: 0.24s; }
-.timeline-section li:nth-child(5) { transition-delay: 0.32s; }
-.timeline-section li:nth-child(6) { transition-delay: 0.4s; }
-.timeline-section li:nth-child(7) { transition-delay: 0.48s; }
-.timeline-section li:nth-child(8) { transition-delay: 0.56s; }
-.timeline-section li:nth-child(9) { transition-delay: 0.64s; }
-.timeline-section li:nth-child(10) { transition-delay: 0.72s; }
+.timeline-section li:nth-child(1).animate-in { transition-delay: 0s; }
+.timeline-section li:nth-child(2).animate-in { transition-delay: 0.08s; }
+.timeline-section li:nth-child(3).animate-in { transition-delay: 0.16s; }
+.timeline-section li:nth-child(4).animate-in { transition-delay: 0.24s; }
+.timeline-section li:nth-child(5).animate-in { transition-delay: 0.32s; }
+.timeline-section li:nth-child(6).animate-in { transition-delay: 0.4s; }
+.timeline-section li:nth-child(7).animate-in { transition-delay: 0.48s; }
+.timeline-section li:nth-child(8).animate-in { transition-delay: 0.56s; }
+.timeline-section li:nth-child(9).animate-in { transition-delay: 0.64s; }
+.timeline-section li:nth-child(10).animate-in { transition-delay: 0.72s; }
 
 /* ============================================
    BADGE ENHANCEMENTS
@@ -948,6 +1017,19 @@ h1:before, .anchor:before {
   color: var(--text-secondary);
   margin-top: 0.3em;
   font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .stats-row {
+    gap: 0.8em;
+  }
+  .stat-item {
+    min-width: 90px;
+    padding: 0.6em 1em;
+  }
+  .stat-number {
+    font-size: 1.5em;
+  }
 }
 
 /* ============================================

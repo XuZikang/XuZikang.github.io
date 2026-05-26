@@ -15,16 +15,13 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<div class="hero-section" data-aos="fade-up">
-  <div class="hero-floating-shapes">
-    <div class="hero-shape"></div>
-    <div class="hero-shape"></div>
-    <div class="hero-shape"></div>
-    <div class="hero-shape"></div>
-  </div>
-  <h1 class="hero-name">Zikang Xu</h1>
-  <p class="hero-subtitle">Specially Appointed Associate Researcher at IAI, HFCNS</p>
-  <div class="hero-typing"></div>
+<div data-aos="fade-up">
+  <p style="text-align: center;">
+    <span style="font-size: 4em; font-weight: 800; background: linear-gradient(135deg, var(--accent-gradient-1), var(--accent-gradient-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+      Zikang Xu
+    </span>
+  </p>
+  <p id="hero-typing" style="text-align: center; min-height: 1.6em; font-size: 1.2em; color: var(--text-secondary);"></p>
 </div>
 
 <div class="stats-row" data-aos="fade-up" data-aos-delay="200">

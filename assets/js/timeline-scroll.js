@@ -8,6 +8,11 @@
         const items = document.querySelectorAll('.timeline-section li');
         if (!items.length) return;
 
+        // Add animate-in class to all items so they start hidden
+        items.forEach(function (item) {
+            item.classList.add('animate-in');
+        });
+
         const observer = new IntersectionObserver(function (entries) {
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {

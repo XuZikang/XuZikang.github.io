@@ -1,47 +1,34 @@
 /**
- * Hero section typing effect and floating shapes animation
- * Creates a typewriter effect with an array of titles and animated floating shapes
+ * Hero section typing effect for the academic homepage
  */
 (function () {
     'use strict';
 
-    // ----- Typing Effect -----
+    const typingElement = document.getElementById('hero-typing');
+    if (!typingElement) return;
+
     const phrases = [
-        'Researcher at Hefei Comprehensive National Science Center',
+        'Specially Appointed Associate Researcher at IAI, HFCNS',
         'AI & Medical Image Analysis',
         'Algorithm Fairness & MEG Signal Processing',
         'Ph.D. from USTC',
     ];
-
-    const heroEl = document.querySelector('.hero-section');
-    if (!heroEl) return;
-
-    let typingContainer = heroEl.querySelector('.hero-typing');
-    if (!typingContainer) {
-        typingContainer = document.createElement('div');
-        typingContainer.className = 'hero-typing';
-        heroEl.appendChild(typingContainer);
-    }
-
     let phraseIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
-    let isPaused = false;
 
     function typeEffect() {
         const currentPhrase = phrases[phraseIndex];
 
         if (isDeleting) {
-            typingContainer.textContent = currentPhrase.substring(0, charIndex--);
+            typingElement.textContent = currentPhrase.substring(0, charIndex--);
         } else {
-            typingContainer.textContent = currentPhrase.substring(0, charIndex++);
+            typingElement.textContent = currentPhrase.substring(0, charIndex++);
         }
 
         if (!isDeleting && charIndex === currentPhrase.length + 1) {
-            isPaused = true;
-            setTimeout(() => {
+            setTimeout(function () {
                 isDeleting = true;
-                isPaused = false;
                 typeEffect();
             }, 2000);
             return;
@@ -58,22 +45,5 @@
         setTimeout(typeEffect, delay);
     }
 
-    // Add cursor element
-    const cursor = document.createElement('span');
-    cursor.className = 'cursor';
-    cursor.textContent = '';
-    typingContainer.appendChild(cursor);
-
-    // Start typing effect after a brief delay
     setTimeout(typeEffect, 1000);
-
-    // ----- Floating Shapes -----
-    const shapesContainer = heroEl.querySelector('.hero-floating-shapes');
-    if (!shapesContainer) return;
-
-    const shapes = shapesContainer.querySelectorAll('.hero-shape');
-    shapes.forEach((shape, i) => {
-        const delay = i * 5;
-        shape.style.animationDelay = `-${delay}s`;
-    });
 })();
