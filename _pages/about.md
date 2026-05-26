@@ -15,6 +15,37 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<div class="hero-section" data-aos="fade-up">
+  <div class="hero-floating-shapes">
+    <div class="hero-shape"></div>
+    <div class="hero-shape"></div>
+    <div class="hero-shape"></div>
+    <div class="hero-shape"></div>
+  </div>
+  <h1 class="hero-name">Zikang Xu</h1>
+  <p class="hero-subtitle">Specially Appointed Associate Researcher at IAI, HFCNS</p>
+  <div class="hero-typing"></div>
+</div>
+
+<div class="stats-row" data-aos="fade-up" data-aos-delay="200">
+  <div class="stat-item">
+    <div class="stat-number" data-target="12">0</div>
+    <div class="stat-label">Publications</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number" data-target="200">0</div>
+    <div class="stat-label">Citations</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number" data-target="1500">0</div>
+    <div class="stat-label">GitHub Stars</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number" data-target="30">0</div>
+    <div class="stat-label">Conference Reviews</div>
+  </div>
+</div>
+
 <span class='anchor' id='about-me'></span>
 
 # 😊 About Me
