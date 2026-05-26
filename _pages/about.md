@@ -9,19 +9,22 @@ redirect_from:
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "<https://cdn.jsdelivr.net/gh/>" | append: site.repository | append: "@" %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
-{% assign gsDataBaseUrl = "<https://raw.githubusercontent.com/>" | append: site.repository | append: "/" %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<div data-aos="fade-up">
-  <p style="text-align: center;">
-    <span style="font-size: 4em; font-weight: 800; background: linear-gradient(135deg, var(--accent-gradient-1), var(--accent-gradient-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
-      Zikang Xu
-    </span>
-  </p>
-  <p id="hero-typing" style="text-align: center; min-height: 1.6em; font-size: 1.2em; color: var(--text-secondary);"></p>
+<div class="hero-section" data-aos="fade-up">
+  <div class="hero-floating-shapes">
+    <div class="hero-shape"></div>
+    <div class="hero-shape"></div>
+    <div class="hero-shape"></div>
+    <div class="hero-shape"></div>
+  </div>
+  <h1 class="hero-name">Zikang Xu</h1>
+  <p class="hero-subtitle">Specially Appointed Associate Researcher</p>
+  <p class="hero-typing" id="hero-typing"></p>
 </div>
 
 <div class="stats-row" data-aos="fade-up" data-aos-delay="200">
@@ -45,32 +48,30 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 😊 About Me
+# About Me
 
 <div data-aos="fade-up">
 
-- Currently, I am a Specially Appointed Associate Researcher (特任副研究员) at [Institute of Artificial Intelligence, Hefei Comprehensive National Science Center](https://iai.ustc.edu.cn/nsjsys.jhtml).
-- I am also a postdoctoral researcher jointly trained by the School of Artificial Intelligence and Data Science, USTC (supervisor: Prof. [Wenjie Feng](https://wenchieh.github.io)), and IAI, HFCNS (supervisor: Prof. [Jiahong Gao](https://faculty.pku.edu.cn/gaojiahong/zh_CN/index/13498/list/index.htm)).
-- I got my Ph. D. degree from School of Biomedical Engineering, University of Science and Technology of China ([USTC](http://bme.ustc.edu.cn/)) in 2025, supervised by Prof. [S. Kevin Zhou](https://sz.ustc.edu.cn/en/en_research_show/42.html).
-- I received my bachelor's and master's degree (Supervisor: Prof. [Zhongze Gu](https://bme.seu.edu.cn/2011/1017/c463a12264/page.psp)) from Southeast University ([SEU](https://www.seu.edu.cn)) in 2018 and 2021, respectively.
-- My research interests mainly focus on **algorithm fairness in medical image analysis**, and **AI technologies in major neurological disorders of the brain**.
+I am a **Specially Appointed Associate Researcher** (特任副研究员) at the [Institute of Artificial Intelligence, Hefei Comprehensive National Science Center](https://iai.ustc.edu.cn/nsjsys.jhtml), where I also serve as a postdoctoral researcher jointly supervised by Prof. [Wenjie Feng](https://wenchieh.github.io) (School of AI and Data Science, USTC) and Prof. [Jiahong Gao](https://faculty.pku.edu.cn/gaojiahong/zh_CN/index/13498/list/index.htm) (IAI, HFCNS).
+
+I received my Ph.D. in 2025 from the School of Biomedical Engineering, [USTC](http://bme.ustc.edu.cn/), under the supervision of Prof. [S. Kevin Zhou](https://sz.ustc.edu.cn/en/en_research_show/42.html). Prior to that, I earned my B.Eng. and M.Eng. from [SEU](https://www.seu.edu.cn) in 2018 and 2021, supervised by Prof. [Zhongze Gu](https://bme.seu.edu.cn/2011/1017/c463a12264/page.psp).
+
+My research interests lie at the intersection of **algorithm fairness in medical image analysis** and **AI-driven analysis of major neurological disorders**.
+
 </div>
 
-# 🔥 News
+# News
 
 <div data-aos="fade-up">
 
 <div class="timeline-section">
-
-<!-- - <span style="color:red;">I'll be at BIBM-25 in Wuhan, China this December (14th-19th, 2025). If you're going to be there too, let's catch up for a coffee ☕️☕️☕️!</span>. -->
-
 
 - *2026.05*: &nbsp; One paper accepted by MICCAI-26 <span style="color:red;">(Early Accepted)</span>.
 - *2025.11*: &nbsp; I am selected to join the first Young Editorial Board of [EngMedicine](https://www.sciencedirect.com/journal/engmedicine). 
 - *2025.11*: &nbsp; One paper accepted by AAAI-26 <span style="color:red;">(Oral)</span>.
 - *2025.10*: &nbsp; One paper accepted by IEEE BIBM-25 <span style="color:red;">(Oral)</span>.
 - *2025.07*: &nbsp; I start my work as a specially appointed associate researcher and postdoc at IAI, Hefei Comprehensive National Science Center.
-- *2025.05*: &nbsp; The moment I've been working toward for years - I just aced my Ph. D. defense! 🎓🥂 All those late nights finally paid off!
+- *2025.05*: &nbsp; The moment I've been working toward for years — I just aced my Ph.D. defense!
 - *2025.04*: &nbsp; One paper accepted by npj Digital Medicine. 
 - *2025.03*: &nbsp; One paper accepted by MIDL-25 <span style="color:red;">(Oral)</span>.
 - *2025.01*: &nbsp; One paper accepted by Medical Image Analysis.
@@ -84,11 +85,11 @@ redirect_from:
 </div>
 </div>
 
-# 📝 Publications
+# Publications
 
 <div data-aos="fade-up">
 
-(Selected publications, `*` indicates equal contribution and ✉️ represents corresponding author.)
+(Selected publications. `*` indicates equal contribution, ✉️ represents the corresponding author.)
 
 ### Algorithm Fairness
 
@@ -98,15 +99,15 @@ redirect_from:
 - `npj Digit. Med. 2024` [Addressing Fairness Issues in Deep Learning-Based Medical Image Analysis: A Systematic Review](https://www.nature.com/articles/s41746-024-01276-5)\
 **Zikang Xu**, Jun Li, Qingsong Yao, Han Li, Mingyue Zhao, S. Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/XuZikang/FairAdaBN.svg?label=Stars&style=social)](https://github.com/XuZikang/Awesome-MedIA-Fairness)[[code](https://github.com/XuZikang/Awesome-MedIA-Fairness)][[Nature](https://www.nature.com/articles/s41746-024-01276-5)]
 
-- `NeurIPS 2024` [FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models](https://openreview.net/forum?id=CyrKKKN3fs&referrer=%5Bthe%20profile%20of%20Yuan%20Zhong%5D(%2Fprofile%3Fid%3D~Yuan_Zhong5))\
-**Ruinan Jin\***, **Zikang Xu\***, **Yuan Zhong\***, Qingsong Yao, Qi Dou✉️, S. Kevin Zhou✉️, Xiaoxiao Li✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/FairMedFM/FairMedFM.svg?label=Stars&style=social)](https://github.com/FairMedFM/FairMedFM)[[code](https://github.com/FairMedFM/FairMedFM)][[OpenReview](https://openreview.net/forum?id=CyrKKKN3fs&referrer=%5Bthe%20profile%20of%20Yuan%20Zhong%5D(%2Fprofile%3Fid%3D~Yuan_Zhong5))]
+- `NeurIPS 2024` [FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models](https://openreview.net/forum?id=CyrKKKN3fs)\
+Ruinan Jin\*, **Zikang Xu\***, Yuan Zhong\*, Qingsong Yao, Qi Dou✉️, S. Kevin Zhou✉️, Xiaoxiao Li✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/FairMedFM/FairMedFM.svg?label=Stars&style=social)](https://github.com/FairMedFM/FairMedFM)[[code](https://github.com/FairMedFM/FairMedFM)][[OpenReview](https://openreview.net/forum?id=CyrKKKN3fs)]
 
 - `MICCAI 2023` [FairAdaBN: Mitigating unfairness with adaptive batch normalization and its application to dermatological disease classification](https://arxiv.org/pdf/2303.08325)\
 **Zikang Xu**, Shang Zhao, Quan Quan, Qingsong Yao, S. Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/XuZikang/Awesome-MedIA-Fairness.svg?label=Stars&style=social)](https://github.com/XuZikang/FairAdaBN)[[code](https://github.com/XuZikang/FairAdaBN)][[Springer](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_29)]
 
 ### MEG Signal Analysis
 
-- `BIBM 2025` [FAIR-ESI: Feature Adaptive Importance Refinement for Electrophysiological Source Imaging](https://ieeexplore.ieee.org/document/11356466?TSPD_101_R0=0807dc117eab20006822586e70f38627dfbba3aa5dbbb54876dd942d0c19bf92fa7d46c12d722fb308706c9c4d1430004a40616e20c72ec836ba8b5a49ac127de18a3d86b0b999e64d13889c501fee3faa0d64ba6e7d18819c7079978e4f1bb2)\
+- `BIBM 2025` [FAIR-ESI: Feature Adaptive Importance Refinement for Electrophysiological Source Imaging](https://ieeexplore.ieee.org/document/11356466)\
 Linyong Zou*, Liang Zhang*, Xiongfei Wang*, Jia-Hong Gao, Yi Sun, Shurong Sheng, Kuntao Xiao, Wanli Yang, Pengfei Teng, Guoming Luan✉️, Zhao Lv✉️, **Zikang Xu**✉️ [[ArXiv]](https://arxiv.org/abs/2507.14928)
 
 ### Landmark Detection
@@ -122,7 +123,7 @@ Xinyi Wang, **Zikang Xu**, Qingsong Yao, Yiyong Sun, S. Kevin Zhou✉️ &nbsp;&
 - `Med. Image Anal. 2025` [LACOSTE: Exploiting stereo and temporal contexts for surgical instrument segmentation](https://www.sciencedirect.com/science/article/abs/pii/S1361841524003128)\
 Qiyuan Wang, Shang Zhao, **Zikang Xu**, S. Kevin Zhou✉️ &nbsp;&nbsp;[[ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1361841524003128)]
 
-- `MIDL 2024` [Slide-SAM: Medical SAM Meets Sliding Window <span style="color:red;">(Oral)</span>](https://openreview.net/forum?id=LNdU9RTv3L&referrer=%5Bthe%20profile%20of%20Fenghe%20Tang%5D(%2Fprofile%3Fid%3D~Fenghe_Tang1))\
+- `MIDL 2024` [Slide-SAM: Medical SAM Meets Sliding Window <span style="color:red;">(Oral)</span>](https://openreview.net/forum?id=LNdU9RTv3L)\
 Quan Quan\*, Fenghe Tang\*, **Zikang Xu**, Heqin Zhu, S. Kevin Zhou✉️ &nbsp;&nbsp;[![](https://img.shields.io/github/stars/Curli-quan/Slide-SAM.svg?label=Stars&style=social)](https://github.com/Curli-quan/Slide-SAM)[[code](https://github.com/Curli-quan/Slide-SAM)][[arXiv](https://arxiv.org/abs/2311.10121v3)]
 
 ### MISC
@@ -135,7 +136,7 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S. Kev
 
 </div>
 
-# 🎖 Honors and Awards
+# Honors and Awards
 
 <div data-aos="fade-up">
 
@@ -147,49 +148,46 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S. Kev
 
 </div>
 
-# 📖 Educations
+# Education
 
 <div data-aos="fade-up">
 
-<div class="timeline-section">
+- *2021.09 – 2025.06*, Ph.D., Biomedical Engineering, University of Science and Technology of China ([USTC](http://bme.ustc.edu.cn/)), Suzhou, China
+- *2018.09 – 2021.06*, M.Eng., Biological Science and Medical Engineering, Southeast University ([SEU](https://bme.seu.edu.cn)), Nanjing, China
+- *2016.09 – 2018.06*, B.Eng., Biological Science and Medical Engineering, Southeast University ([SEU](https://bme.seu.edu.cn)), Nanjing, China
+- *2014.09 – 2016.06*, Undergraduate, Chien-Shiung Wu College (honors college), Southeast University ([SEU](https://wjx.seu.edu.cn)), Nanjing, China
 
-- *2021.09 - 2025.06*, Ph. D., School of Biomedical Engineering, University of Science and Technology of China ([USTC](http://bme.ustc.edu.cn/)), Suzhou, China
-- *2018.09 - 2021.06*, Master, School of Biological Science and Medical Engineering, Southeast University ([SEU](https://bme.seu.edu.cn)), Nanjing, China
-- *2016.09 - 2018.06*, Undergraduate, School of Biological Science and Medical Engineering, Southeast University ([SEU](https://bme.seu.edu.cn)), Nanjing, China
-- *2014.09 - 2016.06*, Undergraduate, Chien-Shiung Wu College (honors college), Southeast University ([SEU](https://wjx.seu.edu.cn)), Nanjing, China
-  
-</div>
 </div>
 
-# 💬 Professional Services
+# Teaching
 
 <div data-aos="fade-up">
 
-*Journal Reviewers:*
+- *2023 Fall*, USTC, Teaching Assistant — Medical Image Computing (BMED6208P.01)
+- *2022 Fall*, USTC, Teaching Assistant — Medical Image Computing (BMED6208P.01)
 
+</div>
+
+# Professional Services
+
+<div data-aos="fade-up">
+
+**Journal Reviewer:**
 - IEEE Transactions on Medical Imaging
 - ACM Transactions on Computing for Healthcare
 - Biomedical Signal Processing and Control
 - Franklin Open
 - ACM Computing Surveys
 
-*Conference Reviewers:*
-- The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)
-- International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2026)
-- International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2025)
-- International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2024)
-- International Conference on Bioinformatics and Biomedicine (BIBM 2024)
-- IEEE International Symposium on Biomedical Imaging (ISBI 2026)
-- IEEE International Symposium on Biomedical Imaging (ISBI 2025)
-
-*Teaching Assistant:*
-
-- *2022 Fall*, USTC, Medical Image Computing (BMED6208P.01_152261)
-- *2023 Fall*, USTC, Medical Image Computing (BMED6208P.01_152261)
+**Conference Reviewer:**
+- AAAI Conference on Artificial Intelligence (AAAI 2026)
+- International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2026, 2025, 2024)
+- IEEE International Conference on Bioinformatics and Biomedicine (BIBM 2024)
+- IEEE International Symposium on Biomedical Imaging (ISBI 2026, 2025)
 
 </div>
 
-# 💬 Invited Talks
+# Invited Talks
 
 <div data-aos="fade-up">
 
@@ -197,7 +195,7 @@ Qiuyi Qi\*, Xin Li\*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S. Kev
 
 </div>
 
-# 💻 Internships
+# Internships
 
 <div data-aos="fade-up">
 
