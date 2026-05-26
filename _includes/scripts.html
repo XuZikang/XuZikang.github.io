@@ -1,24 +1,2 @@
-<script src="assets/js/main.min.js"></script>
 <script src="assets/js/theme-toggle.js"></script>
-<script src="assets/js/particles.js"></script>
-<script src="assets/js/hero.js"></script>
-<script src="assets/js/progress-bar.js"></script>
-<script src="assets/js/tilt-effect.js"></script>
-<script src="assets/js/skill-bars.js"></script>
-<script src="assets/js/stats-counter.js"></script>
-<script src="assets/js/timeline-scroll.js"></script>
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    AOS.init({
-      duration: 800,
-      once: true,
-      offset: 60,
-      disable: window.innerWidth < 768 || window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    });
-  });
-</script>
-
-{% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
-

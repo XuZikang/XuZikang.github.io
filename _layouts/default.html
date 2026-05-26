@@ -1,30 +1,30 @@
----
-layout: compress
----
-
 <!doctype html>
-<html lang="en" class="no-js">
+<!--
+  Linear Design System — Academic Homepage
+  Inspired by Linear.app design language
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js" data-theme="dark">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-    {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
+    <div class="page">
+      <div class="page__inner">
+        <div class="page__content">
+          {{ content }}
         </div>
-      </article>
+      </div>
+
+      <div class="page__footer">
+        <footer>
+          <span>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Built with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://linear.app" rel="nofollow">Linear</a> design.</span>
+        </footer>
+      </div>
     </div>
 
     {% include scripts.html %}
