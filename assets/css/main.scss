@@ -431,6 +431,8 @@ code, pre {
 }
 
 .timeline-section li .news-content {
+  flex: 1;
+  word-break: break-word;
   color: var(--text-secondary);
 }
 

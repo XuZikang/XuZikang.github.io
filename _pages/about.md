@@ -19,21 +19,21 @@ redirect_from:
 <section id="about-me">
 <div class="hero-grid">
   <div class="hero-avatar">
-    <img src="images/zkx.jpg" alt="Zikang Xu">
+    <img src="images/photo.jpeg" alt="Zikang Xu">
   </div>
   <div class="hero-content">
     <h1>Zikang Xu</h1>
     <p class="hero-subtitle">Specially Appointed Associate Researcher</p>
     <p class="hero-affiliation">Institute of Artificial Intelligence, Hefei Comprehensive National Science Center</p>
     <div class="hero-links">
-      <a href="https://scholar.google.com/citations?user=2SR4dZAAAAAJ&hl=en" target="_blank"><span>📚</span> Google Scholar</a>
+      <a href="https://scholar.google.com/citations?user=TxjqAY0AAAAJ&hl=zh-CN" target="_blank"><span>📚</span> Google Scholar</a>
       <a href="https://github.com/XuZikang" target="_blank"><span>🐙</span> GitHub</a>
       <a href="https://x.com/xuzikang" target="_blank"><span>𝕏</span> Twitter</a>
       <a href="mailto:xuzikang@ustc.edu"><span>✉️</span> Email</a>
-      <a href="https://orcid.org/0000-0003-1927-7511" target="_blank"><span>🔗</span> ORCID</a>
+      <a href="https://orcid.org/0000-0001-6615-4510" target="_blank"><span>🔗</span> ORCID</a>
     </div>
     <div class="hero-description">
-      <p>I am a <strong>Specially Appointed Associate Researcher</strong> (特任副研究员) at the <a href="https://iai.ustc.edu.cn/nsjsys.jhtml">Institute of Artificial Intelligence, Hefei Comprehensive National Science Center</a>, where I also serve as a postdoctoral researcher jointly supervised by Prof. <a href="https://wenchieh.github.io">Wenjie Feng</a> (School of AI and Data Science, USTC) and Prof. <a href="https://faculty.pku.edu.cn/gaojiahong/zh_CN/index/13498/list/index.htm">Jiahong Gao</a> (IAI, HFCNS).</p>
+      <p>I am a <strong>Specially Appointed Associate Researcher</strong> (特任副研究员) at the <a href="https://iai.ustc.edu.cn/nsjsys.jhtml">Institute of Artificial Intelligence, Hefei Comprehensive National Science Center</a>, where I also serve as a postdoctoral researcher jointly supervised by Prof. <a href="https://wenchieh.github.io">Wenjie Feng</a> (School of AI and Data Science, USTC) and Prof. <a href="https://faculty.pku.edu.cn/gaojiahong/zh_CN/index/13498/list/index.htm">Jiahong Gao</a> (Peking University).</p>
       <p>I received my Ph.D. in 2025 from the School of Biomedical Engineering, <a href="http://bme.ustc.edu.cn/">USTC</a>, under the supervision of Prof. <a href="https://sz.ustc.edu.cn/en/en_research_show/42.html">S. Kevin Zhou</a>. Prior to that, I earned my B.Eng. and M.Eng. from <a href="https://www.seu.edu.cn">SEU</a> in 2018 and 2021, supervised by Prof. <a href="https://bme.seu.edu.cn/2011/1017/c463a12264/page.psp">Zhongze Gu</a>.</p>
       <p>My research interests lie at the intersection of <strong>algorithm fairness in medical image analysis</strong> and <strong>AI-driven analysis of major neurological disorders</strong>.</p>
     </div>
@@ -84,7 +84,7 @@ redirect_from:
   <div class="pub-title"><a href="https://www.nature.com/articles/s41746-025-01641-y">Fair ultrasound diagnosis via adversarial protected attribute aware perturbations on latent embeddings</a></div>
   <div class="pub-authors"><strong>Zikang Xu</strong>, Fenghe Tang, Quan Quan, Qingsong Yao, Qingpeng Kong, Jianrui Ding, Chunping Ning, S. Kevin Zhou✉️</div>
   <div class="pub-venue"><em>npj Digit. Med.</em> 2025</div>
-  <div class="pub-meta"><span id="total_cit">0</span> citations · npj Digital Medicine</div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="Fair ultrasound diagnosis via adversarial protected attribute aware perturbations on latent embeddings"></span></div>
   <div class="pub-tags">
     <a class="pub-tag highlight" href="https://github.com/XuZikang/APPLE">Code</a>
     <a class="pub-tag" href="https://www.nature.com/articles/s41746-025-01641-y">Nature</a>
@@ -95,6 +95,7 @@ redirect_from:
   <div class="pub-title"><a href="https://www.nature.com/articles/s41746-024-01276-5">Addressing Fairness Issues in Deep Learning-Based Medical Image Analysis: A Systematic Review</a></div>
   <div class="pub-authors"><strong>Zikang Xu</strong>, Jun Li, Qingsong Yao, Han Li, Mingyue Zhao, S. Kevin Zhou✉️</div>
   <div class="pub-venue"><em>npj Digit. Med.</em> 2024</div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="Addressing Fairness Issues in Deep Learning-Based Medical Image Analysis: A Systematic Review"></span></div>
   <div class="pub-tags">
     <a class="pub-tag highlight" href="https://github.com/XuZikang/Awesome-MedIA-Fairness">Code</a>
     <a class="pub-tag" href="https://www.nature.com/articles/s41746-024-01276-5">Nature</a>
@@ -105,6 +106,7 @@ redirect_from:
   <div class="pub-title"><a href="https://openreview.net/forum?id=CyrKKKN3fs">FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models</a></div>
   <div class="pub-authors">Ruinan Jin*, <strong>Zikang Xu*</strong>, Yuan Zhong*, Qingsong Yao, Qi Dou✉️, S. Kevin Zhou✉️, Xiaoxiao Li✉️</div>
   <div class="pub-venue"><em>NeurIPS</em> 2024</div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models"></span></div>
   <div class="pub-tags">
     <a class="pub-tag highlight" href="https://github.com/FairMedFM/FairMedFM">Code</a>
     <a class="pub-tag" href="https://openreview.net/forum?id=CyrKKKN3fs">OpenReview</a>
@@ -115,6 +117,7 @@ redirect_from:
   <div class="pub-title"><a href="https://arxiv.org/pdf/2303.08325">FairAdaBN: Mitigating unfairness with adaptive batch normalization and its application to dermatological disease classification</a></div>
   <div class="pub-authors"><strong>Zikang Xu</strong>, Shang Zhao, Quan Quan, Qingsong Yao, S. Kevin Zhou✉️</div>
   <div class="pub-venue"><em>MICCAI</em> 2023</div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="FairAdaBN: Mitigating unfairness with adaptive batch normalization and its application to dermatological disease classification"></span></div>
   <div class="pub-tags">
     <a class="pub-tag highlight" href="https://github.com/XuZikang/FairAdaBN">Code</a>
     <a class="pub-tag" href="https://link.springer.com/chapter/10.1007/978-3-031-43895-0_29">Springer</a>
@@ -127,6 +130,7 @@ redirect_from:
   <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/11356466">FAIR-ESI: Feature Adaptive Importance Refinement for Electrophysiological Source Imaging</a></div>
   <div class="pub-authors">Linyong Zou*, Liang Zhang*, Xiongfei Wang*, Jia-Hong Gao, Yi Sun, Shurong Sheng, Kuntao Xiao, Wanli Yang, Pengfei Teng, Guoming Luan✉️, Zhao Lv✉️, <strong>Zikang Xu</strong>✉️</div>
   <div class="pub-venue"><em>IEEE BIBM</em> 2025 <span style="color:#10b981;font-weight:510;">(Oral)</span></div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="FAIR-ESI: Feature Adaptive Importance Refinement for Electrophysiological Source Imaging"></span></div>
   <div class="pub-tags">
     <a class="pub-tag" href="https://arxiv.org/abs/2507.14928">arXiv</a>
     <a class="pub-tag" href="https://ieeexplore.ieee.org/document/11356466">IEEE</a>
@@ -139,6 +143,7 @@ redirect_from:
   <div class="pub-title"><a href="https://link.springer.com/chapter/10.1007/978-3-031-72378-0_32">SIX-Net: Spatial-Context Information miX-up for Electrode Landmark Detection</a></div>
   <div class="pub-authors">Xinyi Wang, <strong>Zikang Xu</strong>, Heqin Zhu, Qingsong Yao, Yiyong Sun, S. Kevin Zhou✉️</div>
   <div class="pub-venue"><em>MICCAI</em> 2024 <span style="color:#10b981;font-weight:510;">(Early Accepted)</span></div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="SIX-Net: Spatial-Context Information miX-up for Electrode Landmark Detection"></span></div>
   <div class="pub-tags">
     <a class="pub-tag" href="https://link.springer.com/chapter/10.1007/978-3-031-72378-0_32">Springer</a>
   </div>
@@ -148,6 +153,7 @@ redirect_from:
   <div class="pub-title"><a href="https://openreview.net/pdf?id=8245ExLB4I">OFELIA: Optical Flow-based Electrode LocalIzAtion</a></div>
   <div class="pub-authors">Xinyi Wang, <strong>Zikang Xu</strong>, Qingsong Yao, Yiyong Sun, S. Kevin Zhou✉️</div>
   <div class="pub-venue"><em>MIDL</em> 2024</div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="OFELIA: Optical Flow-based Electrode LocalIzAtion"></span></div>
   <div class="pub-tags">
     <a class="pub-tag" href="https://openreview.net/pdf?id=8245ExLB4I">OpenReview</a>
   </div>
@@ -159,6 +165,7 @@ redirect_from:
   <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841524003128">LACOSTE: Exploiting stereo and temporal contexts for surgical instrument segmentation</a></div>
   <div class="pub-authors">Qiyuan Wang, Shang Zhao, <strong>Zikang Xu</strong>, S. Kevin Zhou✉️</div>
   <div class="pub-venue"><em>Medical Image Analysis</em> 2025</div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="LACOSTE: Exploiting stereo and temporal contexts for surgical instrument segmentation"></span></div>
   <div class="pub-tags">
     <a class="pub-tag" href="https://www.sciencedirect.com/science/article/abs/pii/S1361841524003128">ScienceDirect</a>
   </div>
@@ -168,6 +175,7 @@ redirect_from:
   <div class="pub-title"><a href="https://openreview.net/forum?id=LNdU9RTv3L">Slide-SAM: Medical SAM Meets Sliding Window</a></div>
   <div class="pub-authors">Quan Quan*, Fenghe Tang*, <strong>Zikang Xu</strong>, Heqin Zhu, S. Kevin Zhou✉️</div>
   <div class="pub-venue"><em>MIDL</em> 2024 <span style="color:#10b981;font-weight:510;">(Oral)</span></div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="Slide-SAM: Medical SAM Meets Sliding Window"></span></div>
   <div class="pub-tags">
     <a class="pub-tag highlight" href="https://github.com/Curli-quan/Slide-SAM">Code</a>
     <a class="pub-tag" href="https://arxiv.org/abs/2311.10121v3">arXiv</a>
@@ -180,6 +188,7 @@ redirect_from:
   <div class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/41142">Medatlas: Evaluating LLMs for Multi-Round, Multi-Task Medical Reasoning Across Diverse Imaging Modalities and Clinical Text</a></div>
   <div class="pub-authors">Ronghao Xu, Zhen Huang, Yangbo Wei, Xiaoqian Zhou, <strong>Zikang Xu</strong>, Ting Liu, Zihang Jiang, S. Kevin Zhou✉️</div>
   <div class="pub-venue"><em>AAAI</em> 2026</div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="Medatlas: Evaluating LLMs for Multi-Round, Multi-Task Medical Reasoning Across Diverse Imaging Modalities and Clinical Text"></span></div>
   <div class="pub-tags">
     <a class="pub-tag" href="https://ojs.aaai.org/index.php/AAAI/article/view/41142">AAAI</a>
   </div>
@@ -189,6 +198,7 @@ redirect_from:
   <div class="pub-title"><a href="https://openreview.net/pdf?id=VQrbxORlvv">Style-Aligned Image Composition for Robust Detection of Abnormal Cells in Cytopathology</a></div>
   <div class="pub-authors">Qiuyi Qi*, Xin Li*, Ming Kong, Zikang Xu, Bingdi Chen, Qiang Zhu✉️, S. Kevin Zhou✉️</div>
   <div class="pub-venue"><em>MIDL</em> 2025 <span style="color:#10b981;font-weight:510;">(Oral)</span></div>
+  <div class="pub-meta"><span class="pub-citations" data-pub-title="Style-Aligned Image Composition for Robust Detection of Abnormal Cells in Cytopathology"></span></div>
   <div class="pub-tags">
     <a class="pub-tag highlight" href="https://github.com/Joey-Qi/SAIC">Code</a>
     <a class="pub-tag" href="https://openreview.net/pdf?id=VQrbxORlvv">OpenReview</a>
@@ -295,22 +305,3 @@ redirect_from:
 <p style="color:var(--text-tertiary);font-size:0.875rem;">Coming soon...</p>
 </section>
 
-<script>
-$(document).ready(function () {
-    {% if site.google_scholar_stats_use_cdn %}
-    var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-    {% else %}
-    var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-    {% endif %}
-    $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-        var totalCitation = data['citedby']
-        document.getElementById('total_cit').innerHTML = totalCitation;
-        var citationEles = document.getElementsByClassName('show_paper_citations')
-        Array.prototype.forEach.call(citationEles, element => {
-            var paperId = element.getAttribute('data')
-            var numCitations = data['publications'][paperId]['num_citations']
-            element.innerHTML = '| Citations: ' + numCitations;
-        });
-    });
-})
-</script>
