@@ -49,21 +49,21 @@ redirect_from:
 
 <div class="timeline-section">
 
-- <span class="news-date">2026.05</span> <span class="news-content">One paper accepted by MICCAI-26 <span style="color:#10b981;font-weight:510;">(Early Accepted)</span>.</span>
-- <span class="news-date">2025.11</span> <span class="news-content">I am selected to join the first Young Editorial Board of <a href="https://www.sciencedirect.com/journal/engmedicine">EngMedicine</a>.</span>
-- <span class="news-date">2025.11</span> <span class="news-content">One paper accepted by AAAI-26 <span style="color:#10b981;font-weight:510;">(Oral)</span>.</span>
-- <span class="news-date">2025.10</span> <span class="news-content">One paper accepted by IEEE BIBM-25 <span style="color:#10b981;font-weight:510;">(Oral)</span>.</span>
-- <span class="news-date">2025.07</span> <span class="news-content">I start my work as a specially appointed associate researcher and postdoc at IAI, Hefei Comprehensive National Science Center.</span>
-- <span class="news-date">2025.05</span> <span class="news-content">The moment I've been working toward for years — I just aced my Ph.D. defense!</span>
-- <span class="news-date">2025.04</span> <span class="news-content">One paper accepted by npj Digital Medicine.</span>
-- <span class="news-date">2025.03</span> <span class="news-content">One paper accepted by MIDL-25 <span style="color:#10b981;font-weight:510;">(Oral)</span>.</span>
-- <span class="news-date">2025.01</span> <span class="news-content">One paper accepted by Medical Image Analysis.</span>
-- <span class="news-date">2024.10</span> <span class="news-content">One paper accepted by npj Digital Medicine.</span>
-- <span class="news-date">2024.09</span> <span class="news-content">One paper accepted by NeurIPS-24.</span>
-- <span class="news-date">2024.05</span> <span class="news-content">One paper accepted by MICCAI-24 <span style="color:#10b981;font-weight:510;">(Early Accepted)</span>.</span>
-- <span class="news-date">2024.02</span> <span class="news-content">One paper accepted by MIDL-24 <span style="color:#10b981;font-weight:510;">(Oral)</span>.</span>
-- <span class="news-date">2024.02</span> <span class="news-content">One paper accepted by MIDL-24.</span>
-- <span class="news-date">2023.05</span> <span class="news-content">One paper accepted by MICCAI-23.</span>
+<div class="news-item"><span class="news-date">2026.05</span> <span class="news-content">One paper accepted by MICCAI-26 <span style="color:#10b981;font-weight:510;">(Early Accepted)</span>.</span></div>
+<div class="news-item"><span class="news-date">2025.11</span> <span class="news-content">I am selected to join the first Young Editorial Board of <a href="https://www.sciencedirect.com/journal/engmedicine">EngMedicine</a>.</span></div>
+<div class="news-item"><span class="news-date">2025.11</span> <span class="news-content">One paper accepted by AAAI-26 <span style="color:#10b981;font-weight:510;">(Oral)</span>.</span></div>
+<div class="news-item"><span class="news-date">2025.10</span> <span class="news-content">One paper accepted by IEEE BIBM-25 <span style="color:#10b981;font-weight:510;">(Oral)</span>.</span></div>
+<div class="news-item"><span class="news-date">2025.07</span> <span class="news-content">I start my work as a specially appointed associate researcher and postdoc at IAI, Hefei Comprehensive National Science Center.</span></div>
+<div class="news-item"><span class="news-date">2025.05</span> <span class="news-content">The moment I've been working toward for years — I just aced my Ph.D. defense!</span></div>
+<div class="news-item"><span class="news-date">2025.04</span> <span class="news-content">One paper accepted by npj Digital Medicine.</span></div>
+<div class="news-item"><span class="news-date">2025.03</span> <span class="news-content">One paper accepted by MIDL-25 <span style="color:#10b981;font-weight:510;">(Oral)</span>.</span></div>
+<div class="news-item"><span class="news-date">2025.01</span> <span class="news-content">One paper accepted by Medical Image Analysis.</span></div>
+<div class="news-item"><span class="news-date">2024.10</span> <span class="news-content">One paper accepted by npj Digital Medicine.</span></div>
+<div class="news-item"><span class="news-date">2024.09</span> <span class="news-content">One paper accepted by NeurIPS-24.</span></div>
+<div class="news-item"><span class="news-date">2024.05</span> <span class="news-content">One paper accepted by MICCAI-24 <span style="color:#10b981;font-weight:510;">(Early Accepted)</span>.</span></div>
+<div class="news-item"><span class="news-date">2024.02</span> <span class="news-content">One paper accepted by MIDL-24 <span style="color:#10b981;font-weight:510;">(Oral)</span>.</span></div>
+<div class="news-item"><span class="news-date">2024.02</span> <span class="news-content">One paper accepted by MIDL-24.</span></div>
+<div class="news-item"><span class="news-date">2023.05</span> <span class="news-content">One paper accepted by MICCAI-23.</span></div>
 
 </div>
 </section>
