@@ -1,0 +1,33 @@
+type = "card"
+title = "Awards"
+description = "Honors and awards I have received."
+
+[[items]]
+title = "Outstanding Graduate of Anhui Province"
+subtitle = "Anhui Province"
+date = "2025"
+content = ""
+
+[[items]]
+title = "Outstanding Graduate of USTC"
+subtitle = "University of Science and Technology of China"
+date = "2025"
+content = ""
+
+[[items]]
+title = "Academic First Class Scholarship"
+subtitle = "USTC"
+date = "2021, 2023, 2024"
+content = ""
+
+[[items]]
+title = "Academic Second Class Scholarship"
+subtitle = "USTC"
+date = "2022"
+content = ""
+
+[[items]]
+title = "Suzhou Industrial Park Scholarship"
+subtitle = "Suzhou Industrial Park"
+date = "2021"
+content = ""

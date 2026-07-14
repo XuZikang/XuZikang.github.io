@@ -1,0 +1,74 @@
+[site]
+title = "Zikang Xu"
+description = "Specially Appointed Associate Researcher at IAI, Hefei Comprehensive National Science Center"
+favicon = "/favicon.svg"
+last_updated = "July 14, 2026"
+
+[author]
+name = "Zikang Xu"
+title = "Specially Appointed Associate Researcher"
+institution = "Institute of Artificial Intelligence, Hefei Comprehensive National Science Center"
+avatar = "/photo.jpeg"
+
+[social]
+
+email = "zikangxu@mail.ustc.edu.cn"
+location = "Hefei, China"
+location_url = "https://maps.google.com"
+location_details = []
+google_scholar = "https://scholar.google.com/citations?user=TxjqAY0AAAAJ&hl=zh-CN"
+orcid = "https://orcid.org/0000-0001-6615-4510"
+github = "https://github.com/XuZikang"
+
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

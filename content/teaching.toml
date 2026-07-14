@@ -1,0 +1,17 @@
+type = "card"
+title = "Teaching"
+description = "Courses I have taught or assisted with."
+
+[[items]]
+title = "Medical Image Computing (BMED6208P.01)"
+subtitle = "Teaching Assistant"
+date = "2023 Fall"
+content = "USTC"
+tags = ["Graduate"]
+
+[[items]]
+title = "Medical Image Computing (BMED6208P.01)"
+subtitle = "Teaching Assistant"
+date = "2022 Fall"
+content = "USTC"
+tags = ["Graduate"]

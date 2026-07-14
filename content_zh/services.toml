@@ -1,0 +1,63 @@
+type = "card"
+title = "学术服务"
+description = "专业服务与社区参与。"
+
+[[items]]
+title = "期刊审稿人"
+subtitle = "IEEE Transactions on Medical Imaging"
+date = ""
+content = ""
+
+[[items]]
+title = "期刊审稿人"
+subtitle = "ACM Transactions on Computing for Healthcare"
+date = ""
+content = ""
+
+[[items]]
+title = "期刊审稿人"
+subtitle = "Biomedical Signal Processing and Control"
+date = ""
+content = ""
+
+[[items]]
+title = "期刊审稿人"
+subtitle = "Franklin Open"
+date = ""
+content = ""
+
+[[items]]
+title = "期刊审稿人"
+subtitle = "ACM Computing Surveys"
+date = ""
+content = ""
+
+[[items]]
+title = "会议审稿人"
+subtitle = "AAAI Conference on Artificial Intelligence (AAAI 2026)"
+date = "2026"
+content = ""
+
+[[items]]
+title = "会议审稿人"
+subtitle = "MICCAI (2026, 2025, 2024)"
+date = "2024-2026"
+content = ""
+
+[[items]]
+title = "会议审稿人"
+subtitle = "IEEE BHI (2026)"
+date = "2026"
+content = ""
+
+[[items]]
+title = "会议审稿人"
+subtitle = "IEEE BIBM (2024)"
+date = "2024"
+content = ""
+
+[[items]]
+title = "会议审稿人"
+subtitle = "IEEE ISBI (2026, 2025)"
+date = "2025-2026"
+content = ""

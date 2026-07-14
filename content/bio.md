@@ -1,0 +1,5 @@
+I am a **Specially Appointed Associate Researcher** at the [Institute of Artificial Intelligence, Hefei Comprehensive National Science Center](https://iai.ustc.edu.cn/nsjsys.jhtml), where I also serve as a postdoctoral researcher jointly supervised by Prof. [Wenjie Feng](https://wenchieh.github.io) (School of AI and Data Science, USTC) and Prof. [Jiahong Gao](https://faculty.pku.edu.cn/gaojiahong/zh_CN/index/13498/list/index.htm) (Peking University).
+
+I received my Ph.D. in 2025 from the School of Biomedical Engineering, [USTC](http://bme.ustc.edu.cn/), under the supervision of Prof. [S. Kevin Zhou](https://sz.ustc.edu.cn/en/en_research_show/42.html). Prior to that, I earned my B.Eng. and M.Eng. from [SEU](https://www.seu.edu.cn) in 2018 and 2021, supervised by Prof. [Zhongze Gu](https://bme.seu.edu.cn/2011/1017/c463a12264/page.psp).
+
+My research interests lie at the intersection of **algorithm fairness in medical image analysis** and **AI-driven analysis of major neurological disorders**.

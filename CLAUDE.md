@@ -5,58 +5,69 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Build & Run Commands
 
 ```shell
-# Install dependencies (requires Ruby + Bundler 2.2.19)
-gem install bundler -v 2.2.19
-bundle install
+# Install dependencies
+npm install
 
-# Start development server with live reload (http://localhost:4000)
-bash run_server.sh
-# or directly:
-bundle exec jekyll serve -l
+# Start development server with live reload (http://localhost:3000)
+npm run dev
 
-# Build for production (outputs to _site/)
-bundle exec jekyll build
+# Build for production (outputs to out/)
+npm run build
 ```
 
 There are no automated tests. Test changes manually by running the dev server and visually inspecting the output.
 
 ## Architecture
 
-This is **Zikang Xu's academic homepage** — a **single-page site** built with Jekyll and hosted on GitHub Pages. It derives from the [acad-homepage](https://github.com/RayeRen/acad-homepage.github.io) project, which itself is a customized fork of the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme.
+This is **Zikang Xu's academic homepage** — built with [PRISM](https://github.com/xyjoey/PRISM), a Next.js + Tailwind CSS + TypeScript template for academic personal websites.
 
-### Content: One page, one file
+### Content
 
-All content lives in **`_pages/about.md`**. The site has no blog posts and no subpages. The navigation bar links to anchor IDs within this single page.
+All site content lives in `content/` as configuration-driven files:
 
-**Adding/changing content means editing `_pages/about.md`.** The file uses YAML front matter (`permalink: /`) and is organized into sections separated by `---` horizontal rules with heading IDs (e.g., `#about-me`, `#-news`, `#-publications`).
+- **`content/config.toml`** — global site config, author info, social links, navigation
+- **`content/about.toml`** — homepage layout (bio, news, featured publications sections)
+- **`content/bio.md`** — biography markdown
+- **`content/news.toml`** — timeline/news entries
+- **`content/publications.bib`** — all publications in BibTeX format
+- **`content/services.toml`** — professional services (reviewer roles)
+- **`content/teaching.toml`** — teaching experience
+- **`content/awards.toml`** — honors and awards
+- **`content/cv.md`** — detailed CV markdown
 
-Navigation entries are defined in **`_data/navigation.yml`** as anchor links. When you add a new section heading with an ID to `about.md`, add a corresponding entry here.
+Chinese translations are in `content_zh/` with the same filenames. The site falls back to `content/` if a localized file is missing.
 
-### Layout & partials
+**Adding/changing content means editing files in `content/` (or `content_zh/`).** No code changes required for content updates.
 
-- **`_layouts/default.html`** — the only layout; extends Minimal Mistakes `compress` layout with a sidebar + main content structure
-- **`_includes/`** — partials for `<head>`, masthead (nav bar), sidebar (author profile card), analytics, SEO meta tags, and dynamic Google Scholar stats
+### Pages
 
-### Customizations on top of the Minimal Mistakes theme
+Navigation entries are defined in `content/config.toml` as `[[navigation]]` entries. New pages can be added by creating a TOML file in `content/` and adding a nav entry. Three page types:
+- `text` — renders Markdown content
+- `card` — renders a list of cards
+- `publication` — full publication list with filters
 
-- Single-page layout (blog/post features stripped out)
-- Custom styles in `assets/css/main.scss` (`.paper-box` for publication entries, anchor scroll offsets, badges)
-- `collapse.js` / `collapse.css` for accordion/collapsible widgets
-- `academicons` icon font for academic social links (ORCID, Google Scholar)
-- MathJax 2.7.4 for LaTeX rendering (configured in `_includes/head/custom.html`)
-- Google Scholar citation stats fetched client-side from jsDelivr CDN
-- Base target `_blank` for all external links
+### Publication display
+
+Set `selected={true}` in a BibTeX entry to show it in "Selected Publications" on the homepage. Use `code` field for code links, `preview` for thumbnail images, `description` for summaries.
+
+### Internationalization (i18n)
+
+- Default language: `content/` (English)
+- Chinese: `content_zh/`
+- Configured in `content/config.toml` under `[i18n]`
+- Auto-detects browser language, falls back to default if localized file missing
+
+### Layout & components
+
+- **`src/app/`** — Next.js App Router pages
+- **`src/components/`** — React components (home page sections, layout, publications list, UI)
+- **`src/lib/`** — utility functions (config/bibtex parsers, i18n)
+- **`public/`** — static assets (profile photo, favicon, paper PDFs)
+
+### Deployment
+
+Automatically deployed to GitHub Pages via `.github/workflows/deploy.yml` on push to `master`. Build generates a static `out/` directory. Requires `.nojekyll` file (already present) since GitHub Pages would otherwise ignore `_next/` directory.
 
 ### Google Scholar crawler
 
-A Python script at `google_scholar_crawler/main.py` uses the `scholarly` library to scrape citation data. A GitHub Actions workflow (`.github/workflows/google_scholar_crawler.yaml`) runs this daily at 8:00 UTC and pushes results to the `google-scholar-stats` branch. The site reads these stats via jsDelivr CDN (`google_scholar_stats_use_cdn: true` in `_config.yml`).
-
-This directory is excluded from the Jekyll build.
-
-### Key config (`_config.yml`)
-
-- **Markdown**: kramdown with GFM input, Rouge for syntax highlighting
-- **Sass**: compressed output, source in `_sass/`
-- **Excluded from build**: `google_scholar_crawler`, `.github`, `docs`, and various dev artifacts
-- **Included**: `_pages` directory, `.htaccess`, `files`
-- **Plugins**: jekyll-paginate, jekyll-sitemap, jekyll-gist, jekyll-feed, jekyll-redirect-from
+A Python script at `google_scholar_crawler/main.py` uses the `scholarly` library to scrape citation data. A GitHub Actions workflow (`.github/workflows/google_scholar_crawler.yaml`) runs this daily at 8:00 UTC and pushes results to the `google-scholar-stats` branch.

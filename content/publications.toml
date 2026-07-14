@@ -1,0 +1,4 @@
+type = "publication"
+title = "Publications"
+description = "Selected publications. # indicates equal contribution, † represents the corresponding author."
+source = "publications.bib"

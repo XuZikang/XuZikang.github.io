@@ -1,0 +1,17 @@
+type = "card"
+title = "教学"
+description = "我曾参与授课或助教的课程。"
+
+[[items]]
+title = "医学图像计算 (BMED6208P.01)"
+subtitle = "助教"
+date = "2023 秋季"
+content = "中国科学技术大学"
+tags = ["研究生"]
+
+[[items]]
+title = "医学图像计算 (BMED6208P.01)"
+subtitle = "助教"
+date = "2022 秋季"
+content = "中国科学技术大学"
+tags = ["研究生"]

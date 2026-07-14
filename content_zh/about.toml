@@ -1,0 +1,27 @@
+type = "about"
+title = "关于我"
+
+[profile]
+research_interests = [
+  "医学图像分析中的算法公平性",
+  "基于AI的重大神经系统疾病分析"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "关于我"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "精选论文"
+filter = "selected"
+limit = 5
+
+[[sections]]
+id = "news"
+type = "list"
+title = "动态"
+source = "news.toml"

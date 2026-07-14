@@ -1,23 +1,30 @@
-# Zikang Xu's Homepage
-[https://XuZikang.github.io](https://XuZikang.github.io)
+# Zikang Xu's Academic Homepage
 
+This is the source code for my academic homepage, built with [PRISM](https://github.com/xyjoey/PRISM) — a modern, configurable personal website template using Next.js, Tailwind CSS, and TypeScript.
 
-## Debug locally
-```shell
-# for gem, jekyll, academic page
-sudo apt-get install ruby-full build-essential zlib1g-dev
-gem install jekyll 
-gem install bundler -v 2.2.19
-sudo locale-gen en_US.UTF-8
-sudo update-locale LANG=en_US.UTF-8
+## Development
 
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
-export GEM_HOME="$HOME/gems"
-export PATH="$HOME/gems/bin:$PATH"
+```bash
+npm install
+npm run dev       # dev server at http://localhost:3000
+npm run build     # production build to out/
 ```
 
-## Acknowledgement
-- [acad-homepage](https://github.com/RayeRen/acad-homepage.github.io)
-- [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
-- [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io)
+## Content
+
+All site content is in the `content/` directory:
+- `config.toml` — global site config, navigation, social links
+- `about.toml` — homepage layout (bio, news, featured publications)
+- `bio.md` — biography
+- `news.toml` — timeline entries
+- `publications.bib` — publication list
+- `services.toml` — professional services
+- `teaching.toml` — teaching experience
+- `awards.toml` — honors and awards
+- `cv.md` — detailed CV
+
+Chinese translations are in `content_zh/`. The site auto-detects browser language.
+
+## Deployment
+
+Automatically deployed to GitHub Pages via `.github/workflows/deploy.yml` on push to `master`.
