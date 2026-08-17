@@ -1,4 +1,4 @@
-name: Deploy PRISM to GitHub Pages
+name: Deploy personal homepage
 
 on:
   push:
@@ -11,10 +11,13 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: deploy-personal-homepage
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,23 +29,44 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build site
         run: npm run build
 
-      - name: Upload artifact
+      - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 
-  deploy:
+      - name: Package TencentServer release
+        run: tar -czf homepage.tar.gz -C out .
+
+      - name: Configure deployment SSH
+        env:
+          DEPLOY_KEY: ${{ secrets.TENCENT_SERVER_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.TENCENT_SERVER_KNOWN_HOSTS }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/deploy_key
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/deploy_key ~/.ssh/known_hosts
+
+      - name: Deploy to TencentServer
+        env:
+          DEPLOY_HOST: ${{ secrets.TENCENT_SERVER_HOST }}
+          DEPLOY_USER: ${{ secrets.TENCENT_SERVER_USER }}
+        run: |
+          scp -i ~/.ssh/deploy_key -o IdentitiesOnly=yes homepage.tar.gz "$DEPLOY_USER@$DEPLOY_HOST:/home/deployer/uploads/homepage.tar.gz.incoming"
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes "$DEPLOY_USER@$DEPLOY_HOST" \
+            'mv /home/deployer/uploads/homepage.tar.gz.incoming /home/deployer/uploads/homepage.tar.gz && sudo /usr/local/sbin/deploy-homepage'
+
+  deploy-pages:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
