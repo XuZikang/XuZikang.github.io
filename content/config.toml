@@ -2,7 +2,7 @@
 title = "Zikang Xu"
 description = "Specially Appointed Associate Researcher at IAI, Hefei Comprehensive National Science Center"
 favicon = "/favicon.svg"
-last_updated = "July 30, 2026"
+last_updated = "August 28, 2026"
 
 [author]
 name = "Zikang Xu"
@@ -22,7 +22,7 @@ github = "https://github.com/XuZikang"
 
 [features]
 enable_likes = false
-enable_one_page_mode = false
+enable_one_page_mode = true
 
 [i18n]
 enabled = true
@@ -50,16 +50,16 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
+title = "Experience"
+type = "page"
+target = "experience"
+href = "/experience"
+
+[[navigation]]
 title = "Teaching"
 type = "page"
 target = "teaching"
 href = "/teaching"
-
-[[navigation]]
-title = "Awards"
-type = "page"
-target = "awards"
-href = "/awards"
 
 [[navigation]]
 title = "Services"
@@ -68,7 +68,7 @@ target = "services"
 href = "/services"
 
 [[navigation]]
-title = "CV"
+title = "Awards"
 type = "page"
-target = "cv"
-href = "/cv"
+target = "awards"
+href = "/awards"

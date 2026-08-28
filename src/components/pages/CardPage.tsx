@@ -35,6 +35,7 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
+            className="academic-card-page"
         >
             <div className={embedded ? "mb-4" : "mb-6"}>
                 <h1 className={`${embedded ? "text-2xl" : "text-3xl"} font-serif font-bold text-primary mb-3`}>{config.title}</h1>
