@@ -88,12 +88,14 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       url: tags.url,
       code: tags.code,
       abstract: cleanBibTeXString(tags.abstract),
-      description: cleanBibTeXString(tags.description || tags.note),
+      description: cleanBibTeXString(tags.description),
+      note: cleanBibTeXString(tags.note),
+      theme: cleanBibTeXString(tags.theme),
       selected,
       preview,
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code']),
+      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'theme']),
     };
 
     // Clean up undefined fields
@@ -196,14 +198,14 @@ function parseAuthors(authorsStr: string, highlightNames: string[]): Array<{ nam
       // Clean up the author name
       let name = author.trim();
 
-      // Check for corresponding author marker
-      const isCorresponding = name.includes('*');
+      // Check for corresponding author marker († is canonical; * remains supported for legacy entries)
+      const isCorresponding = name.includes('*') || name.includes('†');
 
       // Check for co-author marker (#)
       const isCoAuthor = name.includes('#');
 
-      // Remove special markers from name
-      name = name.replace(/[*#]/g, '');
+      // Remove special markers from the display name
+      name = name.replace(/[*#†]/g, '');
 
       // Handle "Last, First" format
       if (name.includes(',')) {
@@ -273,7 +275,7 @@ function reconstructBibTeX(entry: { entryType: string; citationKey: string; entr
 
       // Clean author field by removing # and * symbols
       if (key.toLowerCase() === 'author') {
-        cleanValue = value.replace(/[#*]/g, '');
+        cleanValue = value.replace(/[#*†]/g, '');
       }
 
       bibtex += `  ${key} = {${cleanValue}},\n`;

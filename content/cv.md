@@ -20,9 +20,3 @@ Institute of Artificial Intelligence, Hefei Comprehensive National Science Cente
 ## Invited Talks
 
 - **Benchmarking Fairness in Medical Foundation Models**, IEEE International Conference on Universal Village (UV), 2024.10
-
-## Skills
-
-- **Programming:** Python, C++, MATLAB, LaTeX
-- **Deep Learning:** PyTorch, MONAI, TensorFlow
-- **Languages:** Chinese (Native), English (Fluent)

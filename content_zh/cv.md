@@ -20,9 +20,3 @@
 ## 邀请报告
 
 - **Benchmarking Fairness in Medical Foundation Models**，IEEE International Conference on Universal Village (UV)，2024.10
-
-## 技能
-
-- **编程：** Python, C++, MATLAB, LaTeX
-- **深度学习：** PyTorch, MONAI, TensorFlow
-- **语言：** 中文（母语）, 英文（流利）

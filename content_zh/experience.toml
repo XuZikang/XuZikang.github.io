@@ -1,4 +1,4 @@
 type = "text"
 title = "经历"
-description = "教育背景、科研经历、邀请报告与技能。"
+description = "教育背景、科研经历与邀请报告。"
 source = "cv.md"

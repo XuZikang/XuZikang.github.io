@@ -53,6 +53,8 @@ export interface Publication {
   summary?: string;
   researchArea: ResearchArea;
   description?: string;
+  note?: string;
+  theme?: string;
 }
 
 export type PublicationType =

@@ -15,6 +15,9 @@ interface ProfileProps {
 
 export default function Profile({ author, social, researchInterests }: ProfileProps) {
   const messages = useMessages();
+  const institutionLines = author.institution.includes(',')
+    ? author.institution.split(/,\s*/)
+    : author.institution.replace('人工智能研究院', '\n人工智能研究院').split('\n');
   const links = [
     social.email && { label: 'Email', href: `mailto:${social.email}`, icon: Mail },
     { label: 'CV', href: '/Zikang-Xu-CV-2026-05.pdf', icon: FileText },
@@ -28,7 +31,7 @@ export default function Profile({ author, social, researchInterests }: ProfilePr
       <div className="academic-profile-copy">
         <p className="academic-eyebrow">{author.title}</p>
         <h1>{author.name}</h1>
-        <p className="academic-institution">{author.institution}</p>
+        <p className="academic-institution">{institutionLines.map((line) => <span key={line}>{line}</span>)}</p>
         {researchInterests && researchInterests.length > 0 && (
           <div className="academic-interests" aria-label={messages.profile.researchInterests}>
             {researchInterests.map((interest) => <span key={interest}>{interest}</span>)}
